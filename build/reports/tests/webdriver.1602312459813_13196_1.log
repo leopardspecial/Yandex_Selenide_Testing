@@ -1,0 +1,183 @@
+[1602312460.111][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 20425
+[1602312460.112][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602312460.889][INFO]: [acb952a50bdf380ed3691295f539d375] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "D:\\Java_Maven\\Yandex_Selenide_Testing\\build\\downloads\\1602312458434_13196_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "D:\\Java_Maven\\Yandex_Selenide_Testing\\build\\downloads\\1602312458434_13196_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602312460.893][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "D:\\Java_Maven\\Yandex_Selenide_Testing\\build\\downloads\\1602312458434_13196_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602312460.903][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602312460.905][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Egor\AppData\Local\Temp\scoped_dir4428_2114293274" data:,
+[1602312461.574][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602312463.587][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602312465.597][INFO]: [acb952a50bdf380ed3691295f539d375] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.75",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Egor\\AppData\\Local\\Temp\\scoped_dir4428_2114293274"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56533"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "acb952a50bdf380ed3691295f539d375"
+}
+[1602312465.648][INFO]: [acb952a50bdf380ed3691295f539d375] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1602312465.649][INFO]: Waiting for pending navigations...
+[1602312465.651][INFO]: Done waiting for pending navigations. Status: ok
+[1602312465.759][INFO]: Waiting for pending navigations...
+[1602312465.760][INFO]: Done waiting for pending navigations. Status: ok
+[1602312465.760][INFO]: [acb952a50bdf380ed3691295f539d375] RESPONSE SetWindowRect {
+   "height": 738,
+   "width": 1298,
+   "x": 10,
+   "y": 10
+}
+[1602312465.767][INFO]: [acb952a50bdf380ed3691295f539d375] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1602312465.768][INFO]: [acb952a50bdf380ed3691295f539d375] RESPONSE SetTimeouts
+[1602312465.783][INFO]: [acb952a50bdf380ed3691295f539d375] COMMAND Navigate {
+   "url": "https://yandex.ru/pogoda/izhevsk"
+}
+[1602312465.783][INFO]: Waiting for pending navigations...
+[1602312465.785][INFO]: Done waiting for pending navigations. Status: ok
+[1602312466.100][INFO]: Waiting for pending navigations...
+[1602312469.481][INFO]: Done waiting for pending navigations. Status: ok
+[1602312469.481][INFO]: [acb952a50bdf380ed3691295f539d375] RESPONSE Navigate
+[1602312469.510][INFO]: [acb952a50bdf380ed3691295f539d375] COMMAND FindElements {
+   "using": "css selector",
+   "value": "//div/*/table"
+}
+[1602312469.510][INFO]: Waiting for pending navigations...
+[1602312469.512][INFO]: Done waiting for pending navigations. Status: ok
+[1602312469.556][INFO]: Waiting for pending navigations...
+[1602312469.560][INFO]: Done waiting for pending navigations. Status: ok
+[1602312469.560][INFO]: [acb952a50bdf380ed3691295f539d375] RESPONSE FindElements ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=86.0.4240.75)
+[1602312469.629][INFO]: [acb952a50bdf380ed3691295f539d375] COMMAND Quit {
+
+}
+[1602312471.071][INFO]: [acb952a50bdf380ed3691295f539d375] RESPONSE Quit
