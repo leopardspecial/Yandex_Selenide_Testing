@@ -1,16 +1,11 @@
 package yandexTest;
 
 import com.codeborne.selenide.ElementsCollection;
-import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.SelenideElement;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 import static com.codeborne.selenide.Selenide.*;
@@ -20,6 +15,7 @@ public class YandexTest {
     private ElementsCollection dayNumber;
     private ElementsCollection dayOfWeek;
     private ElementsCollection firstTableColumn;
+    private ElementsCollection weatherDays;
     private int elementWrapperCounty;
     private List<String> dayNumbersCollection;
 
@@ -31,7 +27,8 @@ public class YandexTest {
 
     @Before
     public void getElementCollectionCounty() {
-        elementWrapperCounty = $$(By.xpath("//div[@class='card']/*/table")).size();
+        weatherDays = $$(By.xpath("//div[@class='card']"));
+        elementWrapperCounty = weatherDays.size();
 
         System.out.println(elementWrapperCounty);
     }
@@ -65,7 +62,11 @@ public class YandexTest {
             tdElements = tdElements + 4;
         }
 
+    }
 
+    @After
+    public void closeBrowser() {
+        closeWebDriver();
     }
 }
 

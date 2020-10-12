@@ -1,0 +1,3351 @@
+[1602334283.443][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 31495
+[1602334283.443][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602334284.369][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "D:\\Java_Maven\\Yandex_Selenide_Testing\\build\\downloads\\1602334281849_11144_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "D:\\Java_Maven\\Yandex_Selenide_Testing\\build\\downloads\\1602334281849_11144_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602334284.377][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "D:\\Java_Maven\\Yandex_Selenide_Testing\\build\\downloads\\1602334281849_11144_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602334284.442][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602334284.447][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Egor\AppData\Local\Temp\scoped_dir2196_566734513" data:,
+[1602334285.667][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602334287.692][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602334289.736][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.75",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Egor\\AppData\\Local\\Temp\\scoped_dir2196_566734513"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57755"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "73285c5817f8b1e54d5d29698e9b15ed"
+}
+[1602334289.899][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1602334289.899][INFO]: Waiting for pending navigations...
+[1602334289.902][INFO]: Done waiting for pending navigations. Status: ok
+[1602334290.012][INFO]: Waiting for pending navigations...
+[1602334290.014][INFO]: Done waiting for pending navigations. Status: ok
+[1602334290.015][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE SetWindowRect {
+   "height": 738,
+   "width": 1298,
+   "x": 10,
+   "y": 10
+}
+[1602334290.037][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1602334290.038][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE SetTimeouts
+[1602334290.060][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND Navigate {
+   "url": "https://yandex.ru/pogoda/izhevsk"
+}
+[1602334290.060][INFO]: Waiting for pending navigations...
+[1602334290.062][INFO]: Done waiting for pending navigations. Status: ok
+[1602334290.395][INFO]: Waiting for pending navigations...
+[1602334294.297][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.297][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE Navigate
+[1602334294.355][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindElements {
+   "using": "css selector",
+   "value": "div.forecast-details div[class='card']"
+}
+[1602334294.378][INFO]: Waiting for pending navigations...
+[1602334294.379][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.412][INFO]: Waiting for pending navigations...
+[1602334294.414][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.414][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "03d1c93f-ce49-4fa1-9410-d17ec04783c9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "680d1f03-ec8c-45a8-adbc-d6c730161fbd"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3e8e40b5-d373-402a-b4e3-a119aa4b3142"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4cc409eb-7fb4-40b6-abde-81bfd20a7bf7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "dc8a06c7-5ef9-4412-bd2e-43599f57e3da"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b58f6160-fc98-4b80-b958-8a7b511a915d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "611df2ca-d3cf-4f53-b933-409ef1476312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3140bca7-4cba-4449-9cf5-2513e25b4260"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e7262387-bd34-4252-a1ba-37316a05dc05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "49b77a4c-8891-41f0-b7ec-36c8ae07392f"
+} ]
+[1602334294.444][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindElements {
+   "using": "css selector",
+   "value": "div.forecast-details div[class='card']"
+}
+[1602334294.444][INFO]: Waiting for pending navigations...
+[1602334294.446][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.454][INFO]: Waiting for pending navigations...
+[1602334294.454][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.455][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "03d1c93f-ce49-4fa1-9410-d17ec04783c9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "680d1f03-ec8c-45a8-adbc-d6c730161fbd"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3e8e40b5-d373-402a-b4e3-a119aa4b3142"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4cc409eb-7fb4-40b6-abde-81bfd20a7bf7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "dc8a06c7-5ef9-4412-bd2e-43599f57e3da"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b58f6160-fc98-4b80-b958-8a7b511a915d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "611df2ca-d3cf-4f53-b933-409ef1476312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3140bca7-4cba-4449-9cf5-2513e25b4260"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e7262387-bd34-4252-a1ba-37316a05dc05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "49b77a4c-8891-41f0-b7ec-36c8ae07392f"
+} ]
+[1602334294.555][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "03d1c93f-ce49-4fa1-9410-d17ec04783c9",
+   "using": "css selector",
+   "value": "strong"
+}
+[1602334294.555][INFO]: Waiting for pending navigations...
+[1602334294.618][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.642][INFO]: Waiting for pending navigations...
+[1602334294.695][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.695][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "c2610996-7564-4a78-aa7c-7183388ea648"
+}
+[1602334294.702][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "c2610996-7564-4a78-aa7c-7183388ea648"
+}
+[1602334294.702][INFO]: Waiting for pending navigations...
+[1602334294.706][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.712][INFO]: Waiting for pending navigations...
+[1602334294.713][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.713][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "strong"
+[1602334294.718][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "c2610996-7564-4a78-aa7c-7183388ea648"
+}
+[1602334294.718][INFO]: Waiting for pending navigations...
+[1602334294.727][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.743][INFO]: Waiting for pending navigations...
+[1602334294.748][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.748][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "10"
+[1602334294.768][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "03d1c93f-ce49-4fa1-9410-d17ec04783c9",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334294.768][INFO]: Waiting for pending navigations...
+[1602334294.769][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.780][INFO]: Waiting for pending navigations...
+[1602334294.780][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.780][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "10786805-0676-4ed2-94f2-598e1e202535"
+}
+[1602334294.794][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "10786805-0676-4ed2-94f2-598e1e202535",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334294.794][INFO]: Waiting for pending navigations...
+[1602334294.795][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.804][INFO]: Waiting for pending navigations...
+[1602334294.805][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.805][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "ca90dc47-d6ec-4a55-b59b-0748bf901c76"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2fb786a9-8f3c-424c-b325-f8a87af8a7a4"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8f5a50f6-1351-436d-a8e1-d13171e220ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f719873d-d68a-4a48-a981-3048882d68b2"
+} ]
+[1602334294.816][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "03d1c93f-ce49-4fa1-9410-d17ec04783c9",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334294.816][INFO]: Waiting for pending navigations...
+[1602334294.817][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.822][INFO]: Waiting for pending navigations...
+[1602334294.824][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.824][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "10786805-0676-4ed2-94f2-598e1e202535"
+}
+[1602334294.838][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "10786805-0676-4ed2-94f2-598e1e202535",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334294.839][INFO]: Waiting for pending navigations...
+[1602334294.839][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.843][INFO]: Waiting for pending navigations...
+[1602334294.844][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.844][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "ca90dc47-d6ec-4a55-b59b-0748bf901c76"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2fb786a9-8f3c-424c-b325-f8a87af8a7a4"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8f5a50f6-1351-436d-a8e1-d13171e220ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f719873d-d68a-4a48-a981-3048882d68b2"
+} ]
+[1602334294.862][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "ca90dc47-d6ec-4a55-b59b-0748bf901c76",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334294.863][INFO]: Waiting for pending navigations...
+[1602334294.863][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.870][INFO]: Waiting for pending navigations...
+[1602334294.871][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.871][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d87dc5e9-5788-46c9-9213-b30f0f28761f"
+}
+[1602334294.873][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "d87dc5e9-5788-46c9-9213-b30f0f28761f"
+}
+[1602334294.873][INFO]: Waiting for pending navigations...
+[1602334294.874][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.876][INFO]: Waiting for pending navigations...
+[1602334294.876][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.876][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334294.878][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "d87dc5e9-5788-46c9-9213-b30f0f28761f"
+}
+[1602334294.879][INFO]: Waiting for pending navigations...
+[1602334294.879][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.891][INFO]: Waiting for pending navigations...
+[1602334294.892][INFO]: Done waiting for pending navigations. Status: ok
+[1602334294.892][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Утром"
+[1602334294.905][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "ca90dc47-d6ec-4a55-b59b-0748bf901c76",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334294.905][INFO]: Waiting for pending navigations...
+[1602334295.311][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.365][INFO]: Waiting for pending navigations...
+[1602334295.366][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.366][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5d702f79-f5fb-4dee-b6a5-d4189219f0ea"
+}
+[1602334295.369][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "5d702f79-f5fb-4dee-b6a5-d4189219f0ea"
+}
+[1602334295.369][INFO]: Waiting for pending navigations...
+[1602334295.371][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.376][INFO]: Waiting for pending navigations...
+[1602334295.376][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.376][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.378][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "5d702f79-f5fb-4dee-b6a5-d4189219f0ea"
+}
+[1602334295.378][INFO]: Waiting for pending navigations...
+[1602334295.379][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.392][INFO]: Waiting for pending navigations...
+[1602334295.392][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.392][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+8°…+13°"
+[1602334295.399][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "2fb786a9-8f3c-424c-b325-f8a87af8a7a4",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334295.399][INFO]: Waiting for pending navigations...
+[1602334295.399][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.407][INFO]: Waiting for pending navigations...
+[1602334295.408][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.408][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a56817d3-95f7-4f6b-b740-ed49f4be43d9"
+}
+[1602334295.410][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "a56817d3-95f7-4f6b-b740-ed49f4be43d9"
+}
+[1602334295.410][INFO]: Waiting for pending navigations...
+[1602334295.411][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.414][INFO]: Waiting for pending navigations...
+[1602334295.419][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.419][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.422][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "a56817d3-95f7-4f6b-b740-ed49f4be43d9"
+}
+[1602334295.422][INFO]: Waiting for pending navigations...
+[1602334295.425][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.449][INFO]: Waiting for pending navigations...
+[1602334295.450][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.450][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Днём"
+[1602334295.455][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "2fb786a9-8f3c-424c-b325-f8a87af8a7a4",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334295.455][INFO]: Waiting for pending navigations...
+[1602334295.455][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.463][INFO]: Waiting for pending navigations...
+[1602334295.463][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.463][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "043c4e19-1fec-489d-ba4a-d421e87918c4"
+}
+[1602334295.465][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "043c4e19-1fec-489d-ba4a-d421e87918c4"
+}
+[1602334295.465][INFO]: Waiting for pending navigations...
+[1602334295.466][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.468][INFO]: Waiting for pending navigations...
+[1602334295.469][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.469][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.470][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "043c4e19-1fec-489d-ba4a-d421e87918c4"
+}
+[1602334295.470][INFO]: Waiting for pending navigations...
+[1602334295.471][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.483][INFO]: Waiting for pending navigations...
+[1602334295.484][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.484][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+14°…+16°"
+[1602334295.487][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "8f5a50f6-1351-436d-a8e1-d13171e220ab",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334295.487][INFO]: Waiting for pending navigations...
+[1602334295.487][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.495][INFO]: Waiting for pending navigations...
+[1602334295.495][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.495][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "df6fbb2a-fe90-418d-82e1-0fa680048311"
+}
+[1602334295.497][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "df6fbb2a-fe90-418d-82e1-0fa680048311"
+}
+[1602334295.497][INFO]: Waiting for pending navigations...
+[1602334295.498][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.501][INFO]: Waiting for pending navigations...
+[1602334295.502][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.502][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.504][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "df6fbb2a-fe90-418d-82e1-0fa680048311"
+}
+[1602334295.504][INFO]: Waiting for pending navigations...
+[1602334295.504][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.514][INFO]: Waiting for pending navigations...
+[1602334295.515][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.515][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Вечером"
+[1602334295.519][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "8f5a50f6-1351-436d-a8e1-d13171e220ab",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334295.519][INFO]: Waiting for pending navigations...
+[1602334295.520][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.527][INFO]: Waiting for pending navigations...
+[1602334295.527][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.527][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b314c578-892c-4a1b-8472-8f77ae81e2b6"
+}
+[1602334295.529][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "b314c578-892c-4a1b-8472-8f77ae81e2b6"
+}
+[1602334295.529][INFO]: Waiting for pending navigations...
+[1602334295.530][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.532][INFO]: Waiting for pending navigations...
+[1602334295.533][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.533][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.534][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "b314c578-892c-4a1b-8472-8f77ae81e2b6"
+}
+[1602334295.534][INFO]: Waiting for pending navigations...
+[1602334295.535][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.550][INFO]: Waiting for pending navigations...
+[1602334295.550][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.550][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+10°…+13°"
+[1602334295.558][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "f719873d-d68a-4a48-a981-3048882d68b2",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334295.558][INFO]: Waiting for pending navigations...
+[1602334295.559][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.566][INFO]: Waiting for pending navigations...
+[1602334295.567][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.567][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4def8436-088f-4b17-90f6-1fa257d5a780"
+}
+[1602334295.569][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "4def8436-088f-4b17-90f6-1fa257d5a780"
+}
+[1602334295.569][INFO]: Waiting for pending navigations...
+[1602334295.570][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.572][INFO]: Waiting for pending navigations...
+[1602334295.573][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.573][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.575][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "4def8436-088f-4b17-90f6-1fa257d5a780"
+}
+[1602334295.575][INFO]: Waiting for pending navigations...
+[1602334295.576][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.585][INFO]: Waiting for pending navigations...
+[1602334295.586][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.586][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Ночью"
+[1602334295.590][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "f719873d-d68a-4a48-a981-3048882d68b2",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334295.591][INFO]: Waiting for pending navigations...
+[1602334295.591][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.599][INFO]: Waiting for pending navigations...
+[1602334295.600][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.600][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "29d5f324-13a3-4eea-8e2c-3e91546fb4ce"
+}
+[1602334295.602][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "29d5f324-13a3-4eea-8e2c-3e91546fb4ce"
+}
+[1602334295.602][INFO]: Waiting for pending navigations...
+[1602334295.602][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.605][INFO]: Waiting for pending navigations...
+[1602334295.605][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.605][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.607][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "29d5f324-13a3-4eea-8e2c-3e91546fb4ce"
+}
+[1602334295.607][INFO]: Waiting for pending navigations...
+[1602334295.608][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.623][INFO]: Waiting for pending navigations...
+[1602334295.623][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.623][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+9°…+10°"
+[1602334295.639][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "680d1f03-ec8c-45a8-adbc-d6c730161fbd",
+   "using": "css selector",
+   "value": "strong"
+}
+[1602334295.639][INFO]: Waiting for pending navigations...
+[1602334295.640][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.650][INFO]: Waiting for pending navigations...
+[1602334295.651][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.651][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ac2139aa-664a-4103-b915-d4a83c092826"
+}
+[1602334295.653][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "ac2139aa-664a-4103-b915-d4a83c092826"
+}
+[1602334295.653][INFO]: Waiting for pending navigations...
+[1602334295.654][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.657][INFO]: Waiting for pending navigations...
+[1602334295.657][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.657][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "strong"
+[1602334295.659][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "ac2139aa-664a-4103-b915-d4a83c092826"
+}
+[1602334295.659][INFO]: Waiting for pending navigations...
+[1602334295.660][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.672][INFO]: Waiting for pending navigations...
+[1602334295.673][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.673][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "11"
+[1602334295.679][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "680d1f03-ec8c-45a8-adbc-d6c730161fbd",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334295.679][INFO]: Waiting for pending navigations...
+[1602334295.679][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.688][INFO]: Waiting for pending navigations...
+[1602334295.689][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.689][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f4fce674-8b99-46e2-9885-f15dc8ff1cf7"
+}
+[1602334295.695][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "f4fce674-8b99-46e2-9885-f15dc8ff1cf7",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334295.695][INFO]: Waiting for pending navigations...
+[1602334295.697][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.704][INFO]: Waiting for pending navigations...
+[1602334295.705][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.705][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "6f8c9781-c9f3-4c18-9229-f5c3e6e7ee91"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c7ede4b5-fea9-4b8e-a545-082c460e468a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "94e415e7-3180-44a1-8250-a8772d079929"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "698286ea-8080-4c17-b781-c9b0a4aa1f56"
+} ]
+[1602334295.710][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "680d1f03-ec8c-45a8-adbc-d6c730161fbd",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334295.711][INFO]: Waiting for pending navigations...
+[1602334295.711][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.715][INFO]: Waiting for pending navigations...
+[1602334295.715][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.715][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f4fce674-8b99-46e2-9885-f15dc8ff1cf7"
+}
+[1602334295.719][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "f4fce674-8b99-46e2-9885-f15dc8ff1cf7",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334295.719][INFO]: Waiting for pending navigations...
+[1602334295.719][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.725][INFO]: Waiting for pending navigations...
+[1602334295.725][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.725][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "6f8c9781-c9f3-4c18-9229-f5c3e6e7ee91"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c7ede4b5-fea9-4b8e-a545-082c460e468a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "94e415e7-3180-44a1-8250-a8772d079929"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "698286ea-8080-4c17-b781-c9b0a4aa1f56"
+} ]
+[1602334295.735][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "6f8c9781-c9f3-4c18-9229-f5c3e6e7ee91",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334295.735][INFO]: Waiting for pending navigations...
+[1602334295.735][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.743][INFO]: Waiting for pending navigations...
+[1602334295.744][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.744][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f836dad5-9482-4407-b71a-fe45b156d3e4"
+}
+[1602334295.745][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "f836dad5-9482-4407-b71a-fe45b156d3e4"
+}
+[1602334295.745][INFO]: Waiting for pending navigations...
+[1602334295.746][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.749][INFO]: Waiting for pending navigations...
+[1602334295.749][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.749][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.752][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "f836dad5-9482-4407-b71a-fe45b156d3e4"
+}
+[1602334295.752][INFO]: Waiting for pending navigations...
+[1602334295.753][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.762][INFO]: Waiting for pending navigations...
+[1602334295.762][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.762][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Утром"
+[1602334295.767][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "6f8c9781-c9f3-4c18-9229-f5c3e6e7ee91",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334295.767][INFO]: Waiting for pending navigations...
+[1602334295.768][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.776][INFO]: Waiting for pending navigations...
+[1602334295.776][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.776][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ae156f16-bad9-4fb4-aea9-40a14440ca86"
+}
+[1602334295.778][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "ae156f16-bad9-4fb4-aea9-40a14440ca86"
+}
+[1602334295.778][INFO]: Waiting for pending navigations...
+[1602334295.779][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.781][INFO]: Waiting for pending navigations...
+[1602334295.787][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.787][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.788][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "ae156f16-bad9-4fb4-aea9-40a14440ca86"
+}
+[1602334295.788][INFO]: Waiting for pending navigations...
+[1602334295.789][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.803][INFO]: Waiting for pending navigations...
+[1602334295.803][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.803][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+9°…+13°"
+[1602334295.806][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "c7ede4b5-fea9-4b8e-a545-082c460e468a",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334295.806][INFO]: Waiting for pending navigations...
+[1602334295.807][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.814][INFO]: Waiting for pending navigations...
+[1602334295.815][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.815][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "dd89a7dd-8c7c-4417-82ce-f1a0203d1776"
+}
+[1602334295.819][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "dd89a7dd-8c7c-4417-82ce-f1a0203d1776"
+}
+[1602334295.819][INFO]: Waiting for pending navigations...
+[1602334295.820][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.823][INFO]: Waiting for pending navigations...
+[1602334295.823][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.823][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.825][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "dd89a7dd-8c7c-4417-82ce-f1a0203d1776"
+}
+[1602334295.825][INFO]: Waiting for pending navigations...
+[1602334295.826][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.835][INFO]: Waiting for pending navigations...
+[1602334295.837][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.837][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Днём"
+[1602334295.846][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "c7ede4b5-fea9-4b8e-a545-082c460e468a",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334295.846][INFO]: Waiting for pending navigations...
+[1602334295.847][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.855][INFO]: Waiting for pending navigations...
+[1602334295.855][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.855][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3d221f2a-af91-4add-a3af-479fa0c5770e"
+}
+[1602334295.857][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "3d221f2a-af91-4add-a3af-479fa0c5770e"
+}
+[1602334295.857][INFO]: Waiting for pending navigations...
+[1602334295.858][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.860][INFO]: Waiting for pending navigations...
+[1602334295.860][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.860][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.862][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "3d221f2a-af91-4add-a3af-479fa0c5770e"
+}
+[1602334295.862][INFO]: Waiting for pending navigations...
+[1602334295.862][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.877][INFO]: Waiting for pending navigations...
+[1602334295.878][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.878][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+14°…+16°"
+[1602334295.887][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "94e415e7-3180-44a1-8250-a8772d079929",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334295.887][INFO]: Waiting for pending navigations...
+[1602334295.887][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.895][INFO]: Waiting for pending navigations...
+[1602334295.895][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.895][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "77ef2af5-01b8-44ca-b5b7-2f77b42f1c9f"
+}
+[1602334295.897][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "77ef2af5-01b8-44ca-b5b7-2f77b42f1c9f"
+}
+[1602334295.897][INFO]: Waiting for pending navigations...
+[1602334295.898][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.900][INFO]: Waiting for pending navigations...
+[1602334295.901][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.901][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.903][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "77ef2af5-01b8-44ca-b5b7-2f77b42f1c9f"
+}
+[1602334295.904][INFO]: Waiting for pending navigations...
+[1602334295.904][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.914][INFO]: Waiting for pending navigations...
+[1602334295.915][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.915][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Вечером"
+[1602334295.927][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "94e415e7-3180-44a1-8250-a8772d079929",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334295.927][INFO]: Waiting for pending navigations...
+[1602334295.928][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.936][INFO]: Waiting for pending navigations...
+[1602334295.937][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.937][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1c493085-ac5c-4c0d-9847-924078e4baf1"
+}
+[1602334295.939][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "1c493085-ac5c-4c0d-9847-924078e4baf1"
+}
+[1602334295.939][INFO]: Waiting for pending navigations...
+[1602334295.939][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.942][INFO]: Waiting for pending navigations...
+[1602334295.943][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.943][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.944][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "1c493085-ac5c-4c0d-9847-924078e4baf1"
+}
+[1602334295.944][INFO]: Waiting for pending navigations...
+[1602334295.945][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.962][INFO]: Waiting for pending navigations...
+[1602334295.963][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.963][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+6°…+12°"
+[1602334295.967][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "698286ea-8080-4c17-b781-c9b0a4aa1f56",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334295.967][INFO]: Waiting for pending navigations...
+[1602334295.968][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.975][INFO]: Waiting for pending navigations...
+[1602334295.976][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.976][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "fbb7d481-540d-4638-b36e-7355cbd0a7d1"
+}
+[1602334295.977][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "fbb7d481-540d-4638-b36e-7355cbd0a7d1"
+}
+[1602334295.977][INFO]: Waiting for pending navigations...
+[1602334295.978][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.980][INFO]: Waiting for pending navigations...
+[1602334295.981][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.981][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334295.983][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "fbb7d481-540d-4638-b36e-7355cbd0a7d1"
+}
+[1602334295.983][INFO]: Waiting for pending navigations...
+[1602334295.984][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.993][INFO]: Waiting for pending navigations...
+[1602334295.994][INFO]: Done waiting for pending navigations. Status: ok
+[1602334295.994][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Ночью"
+[1602334295.998][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "698286ea-8080-4c17-b781-c9b0a4aa1f56",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334295.998][INFO]: Waiting for pending navigations...
+[1602334295.999][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.006][INFO]: Waiting for pending navigations...
+[1602334296.007][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.007][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "dca822d4-9b25-4cf5-bf0e-3b6b7d26b8ba"
+}
+[1602334296.009][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "dca822d4-9b25-4cf5-bf0e-3b6b7d26b8ba"
+}
+[1602334296.009][INFO]: Waiting for pending navigations...
+[1602334296.009][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.015][INFO]: Waiting for pending navigations...
+[1602334296.016][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.016][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.019][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "dca822d4-9b25-4cf5-bf0e-3b6b7d26b8ba"
+}
+[1602334296.019][INFO]: Waiting for pending navigations...
+[1602334296.019][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.055][INFO]: Waiting for pending navigations...
+[1602334296.057][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.057][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+2°…+5°"
+[1602334296.064][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "3e8e40b5-d373-402a-b4e3-a119aa4b3142",
+   "using": "css selector",
+   "value": "strong"
+}
+[1602334296.064][INFO]: Waiting for pending navigations...
+[1602334296.075][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.096][INFO]: Waiting for pending navigations...
+[1602334296.097][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.097][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3e1df4a4-e346-40ad-b053-be9cee540cbe"
+}
+[1602334296.099][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "3e1df4a4-e346-40ad-b053-be9cee540cbe"
+}
+[1602334296.099][INFO]: Waiting for pending navigations...
+[1602334296.107][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.109][INFO]: Waiting for pending navigations...
+[1602334296.109][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.109][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "strong"
+[1602334296.111][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "3e1df4a4-e346-40ad-b053-be9cee540cbe"
+}
+[1602334296.111][INFO]: Waiting for pending navigations...
+[1602334296.112][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.122][INFO]: Waiting for pending navigations...
+[1602334296.122][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.123][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "12"
+[1602334296.126][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "3e8e40b5-d373-402a-b4e3-a119aa4b3142",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334296.127][INFO]: Waiting for pending navigations...
+[1602334296.127][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.134][INFO]: Waiting for pending navigations...
+[1602334296.135][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.135][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "c421ff27-071b-4648-a055-13952944f878"
+}
+[1602334296.142][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "c421ff27-071b-4648-a055-13952944f878",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334296.143][INFO]: Waiting for pending navigations...
+[1602334296.143][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.150][INFO]: Waiting for pending navigations...
+[1602334296.151][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.151][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "3153d820-b0f7-4c86-b85c-954f9c1b617a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "99e9c28c-dcdd-4eaa-a5f1-3e47a855f8d5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9f7b0d8-d26a-4cba-a116-d10676a881e1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "61f890ac-adb7-4a95-a038-6bef7a3e72b9"
+} ]
+[1602334296.158][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "3e8e40b5-d373-402a-b4e3-a119aa4b3142",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334296.159][INFO]: Waiting for pending navigations...
+[1602334296.159][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.163][INFO]: Waiting for pending navigations...
+[1602334296.164][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.164][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "c421ff27-071b-4648-a055-13952944f878"
+}
+[1602334296.166][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "c421ff27-071b-4648-a055-13952944f878",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334296.167][INFO]: Waiting for pending navigations...
+[1602334296.167][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.172][INFO]: Waiting for pending navigations...
+[1602334296.172][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.173][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "3153d820-b0f7-4c86-b85c-954f9c1b617a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "99e9c28c-dcdd-4eaa-a5f1-3e47a855f8d5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9f7b0d8-d26a-4cba-a116-d10676a881e1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "61f890ac-adb7-4a95-a038-6bef7a3e72b9"
+} ]
+[1602334296.183][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "3153d820-b0f7-4c86-b85c-954f9c1b617a",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334296.183][INFO]: Waiting for pending navigations...
+[1602334296.183][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.191][INFO]: Waiting for pending navigations...
+[1602334296.192][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.192][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d5228ffe-499e-4066-9319-8ef877444f51"
+}
+[1602334296.193][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "d5228ffe-499e-4066-9319-8ef877444f51"
+}
+[1602334296.193][INFO]: Waiting for pending navigations...
+[1602334296.194][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.196][INFO]: Waiting for pending navigations...
+[1602334296.197][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.197][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.199][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "d5228ffe-499e-4066-9319-8ef877444f51"
+}
+[1602334296.199][INFO]: Waiting for pending navigations...
+[1602334296.200][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.214][INFO]: Waiting for pending navigations...
+[1602334296.215][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.215][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Утром"
+[1602334296.222][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "3153d820-b0f7-4c86-b85c-954f9c1b617a",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334296.223][INFO]: Waiting for pending navigations...
+[1602334296.223][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.230][INFO]: Waiting for pending navigations...
+[1602334296.231][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.231][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d1cea0f5-8445-4800-8eda-b92b1b03f1d3"
+}
+[1602334296.233][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "d1cea0f5-8445-4800-8eda-b92b1b03f1d3"
+}
+[1602334296.233][INFO]: Waiting for pending navigations...
+[1602334296.234][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.236][INFO]: Waiting for pending navigations...
+[1602334296.237][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.237][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.238][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "d1cea0f5-8445-4800-8eda-b92b1b03f1d3"
+}
+[1602334296.238][INFO]: Waiting for pending navigations...
+[1602334296.239][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.252][INFO]: Waiting for pending navigations...
+[1602334296.253][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.253][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+2°…+11°"
+[1602334296.263][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "99e9c28c-dcdd-4eaa-a5f1-3e47a855f8d5",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334296.263][INFO]: Waiting for pending navigations...
+[1602334296.263][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.272][INFO]: Waiting for pending navigations...
+[1602334296.272][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.272][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0f377d45-5dbd-46f6-ba2e-6b919eb9cd3a"
+}
+[1602334296.274][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "0f377d45-5dbd-46f6-ba2e-6b919eb9cd3a"
+}
+[1602334296.274][INFO]: Waiting for pending navigations...
+[1602334296.274][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.276][INFO]: Waiting for pending navigations...
+[1602334296.277][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.277][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.278][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "0f377d45-5dbd-46f6-ba2e-6b919eb9cd3a"
+}
+[1602334296.278][INFO]: Waiting for pending navigations...
+[1602334296.279][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.289][INFO]: Waiting for pending navigations...
+[1602334296.289][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.289][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Днём"
+[1602334296.295][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "99e9c28c-dcdd-4eaa-a5f1-3e47a855f8d5",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334296.295][INFO]: Waiting for pending navigations...
+[1602334296.295][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.303][INFO]: Waiting for pending navigations...
+[1602334296.304][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.304][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "dd30e5ae-97b9-4f0b-a8a3-38d5613fec4e"
+}
+[1602334296.306][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "dd30e5ae-97b9-4f0b-a8a3-38d5613fec4e"
+}
+[1602334296.306][INFO]: Waiting for pending navigations...
+[1602334296.306][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.309][INFO]: Waiting for pending navigations...
+[1602334296.309][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.309][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.311][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "dd30e5ae-97b9-4f0b-a8a3-38d5613fec4e"
+}
+[1602334296.311][INFO]: Waiting for pending navigations...
+[1602334296.312][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.326][INFO]: Waiting for pending navigations...
+[1602334296.327][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.327][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+12°…+15°"
+[1602334296.335][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "a9f7b0d8-d26a-4cba-a116-d10676a881e1",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334296.335][INFO]: Waiting for pending navigations...
+[1602334296.336][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.343][INFO]: Waiting for pending navigations...
+[1602334296.343][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.343][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "c3171c40-f679-4851-b9ef-609b297838f2"
+}
+[1602334296.345][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "c3171c40-f679-4851-b9ef-609b297838f2"
+}
+[1602334296.345][INFO]: Waiting for pending navigations...
+[1602334296.346][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.348][INFO]: Waiting for pending navigations...
+[1602334296.349][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.350][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.351][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "c3171c40-f679-4851-b9ef-609b297838f2"
+}
+[1602334296.351][INFO]: Waiting for pending navigations...
+[1602334296.351][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.360][INFO]: Waiting for pending navigations...
+[1602334296.361][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.361][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Вечером"
+[1602334296.367][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "a9f7b0d8-d26a-4cba-a116-d10676a881e1",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334296.367][INFO]: Waiting for pending navigations...
+[1602334296.367][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.374][INFO]: Waiting for pending navigations...
+[1602334296.375][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.375][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5bcd4345-98eb-4fb3-b8cb-20722d74e4de"
+}
+[1602334296.377][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "5bcd4345-98eb-4fb3-b8cb-20722d74e4de"
+}
+[1602334296.377][INFO]: Waiting for pending navigations...
+[1602334296.378][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.380][INFO]: Waiting for pending navigations...
+[1602334296.381][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.381][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.382][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "5bcd4345-98eb-4fb3-b8cb-20722d74e4de"
+}
+[1602334296.382][INFO]: Waiting for pending navigations...
+[1602334296.383][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.397][INFO]: Waiting for pending navigations...
+[1602334296.397][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.398][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+9°…+13°"
+[1602334296.407][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "61f890ac-adb7-4a95-a038-6bef7a3e72b9",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334296.407][INFO]: Waiting for pending navigations...
+[1602334296.407][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.414][INFO]: Waiting for pending navigations...
+[1602334296.415][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.415][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "90990ad9-c099-4ee1-b849-9ca6772d806c"
+}
+[1602334296.416][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "90990ad9-c099-4ee1-b849-9ca6772d806c"
+}
+[1602334296.416][INFO]: Waiting for pending navigations...
+[1602334296.417][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.420][INFO]: Waiting for pending navigations...
+[1602334296.421][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.421][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.422][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "90990ad9-c099-4ee1-b849-9ca6772d806c"
+}
+[1602334296.422][INFO]: Waiting for pending navigations...
+[1602334296.423][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.436][INFO]: Waiting for pending navigations...
+[1602334296.437][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.437][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Ночью"
+[1602334296.447][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "61f890ac-adb7-4a95-a038-6bef7a3e72b9",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334296.447][INFO]: Waiting for pending navigations...
+[1602334296.448][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.458][INFO]: Waiting for pending navigations...
+[1602334296.458][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.458][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6e9b94e4-652d-4193-9681-7641610c6c69"
+}
+[1602334296.460][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "6e9b94e4-652d-4193-9681-7641610c6c69"
+}
+[1602334296.461][INFO]: Waiting for pending navigations...
+[1602334296.461][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.464][INFO]: Waiting for pending navigations...
+[1602334296.465][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.465][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.467][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "6e9b94e4-652d-4193-9681-7641610c6c69"
+}
+[1602334296.467][INFO]: Waiting for pending navigations...
+[1602334296.467][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.483][INFO]: Waiting for pending navigations...
+[1602334296.484][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.484][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+8°…+9°"
+[1602334296.495][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "4cc409eb-7fb4-40b6-abde-81bfd20a7bf7",
+   "using": "css selector",
+   "value": "strong"
+}
+[1602334296.495][INFO]: Waiting for pending navigations...
+[1602334296.495][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.505][INFO]: Waiting for pending navigations...
+[1602334296.506][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.506][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1f4666c1-52e8-4144-b942-d2490134a7ae"
+}
+[1602334296.508][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "1f4666c1-52e8-4144-b942-d2490134a7ae"
+}
+[1602334296.508][INFO]: Waiting for pending navigations...
+[1602334296.508][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.511][INFO]: Waiting for pending navigations...
+[1602334296.512][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.512][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "strong"
+[1602334296.513][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "1f4666c1-52e8-4144-b942-d2490134a7ae"
+}
+[1602334296.513][INFO]: Waiting for pending navigations...
+[1602334296.514][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.524][INFO]: Waiting for pending navigations...
+[1602334296.525][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.525][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "13"
+[1602334296.535][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "4cc409eb-7fb4-40b6-abde-81bfd20a7bf7",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334296.535][INFO]: Waiting for pending navigations...
+[1602334296.536][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.543][INFO]: Waiting for pending navigations...
+[1602334296.544][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.544][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b5e89523-1faf-423a-ace8-8418c2ef684d"
+}
+[1602334296.550][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "b5e89523-1faf-423a-ace8-8418c2ef684d",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334296.551][INFO]: Waiting for pending navigations...
+[1602334296.551][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.559][INFO]: Waiting for pending navigations...
+[1602334296.560][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.560][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "513e2aa3-09d6-444b-95e0-c660070b1459"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a7b08420-98f9-490f-b82e-eb01caede367"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3d255819-ff80-4aed-b2d5-2a1fa3ddb4a0"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8d25a7eb-b54a-4cde-a871-603831bedbe4"
+} ]
+[1602334296.567][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "4cc409eb-7fb4-40b6-abde-81bfd20a7bf7",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334296.567][INFO]: Waiting for pending navigations...
+[1602334296.568][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.571][INFO]: Waiting for pending navigations...
+[1602334296.572][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.572][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b5e89523-1faf-423a-ace8-8418c2ef684d"
+}
+[1602334296.583][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "b5e89523-1faf-423a-ace8-8418c2ef684d",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334296.583][INFO]: Waiting for pending navigations...
+[1602334296.583][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.588][INFO]: Waiting for pending navigations...
+[1602334296.589][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.589][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "513e2aa3-09d6-444b-95e0-c660070b1459"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a7b08420-98f9-490f-b82e-eb01caede367"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3d255819-ff80-4aed-b2d5-2a1fa3ddb4a0"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8d25a7eb-b54a-4cde-a871-603831bedbe4"
+} ]
+[1602334296.599][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "513e2aa3-09d6-444b-95e0-c660070b1459",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334296.599][INFO]: Waiting for pending navigations...
+[1602334296.600][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.609][INFO]: Waiting for pending navigations...
+[1602334296.610][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.610][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "37355a17-4af5-4148-aec3-0f5f7c339d86"
+}
+[1602334296.611][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "37355a17-4af5-4148-aec3-0f5f7c339d86"
+}
+[1602334296.611][INFO]: Waiting for pending navigations...
+[1602334296.612][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.615][INFO]: Waiting for pending navigations...
+[1602334296.616][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.616][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.618][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "37355a17-4af5-4148-aec3-0f5f7c339d86"
+}
+[1602334296.618][INFO]: Waiting for pending navigations...
+[1602334296.619][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.628][INFO]: Waiting for pending navigations...
+[1602334296.629][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.629][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Утром"
+[1602334296.639][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "513e2aa3-09d6-444b-95e0-c660070b1459",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334296.639][INFO]: Waiting for pending navigations...
+[1602334296.639][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.648][INFO]: Waiting for pending navigations...
+[1602334296.649][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.649][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6ccd6a65-06fd-4848-a687-b2902ad3e8bc"
+}
+[1602334296.650][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "6ccd6a65-06fd-4848-a687-b2902ad3e8bc"
+}
+[1602334296.650][INFO]: Waiting for pending navigations...
+[1602334296.651][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.653][INFO]: Waiting for pending navigations...
+[1602334296.654][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.654][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.656][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "6ccd6a65-06fd-4848-a687-b2902ad3e8bc"
+}
+[1602334296.656][INFO]: Waiting for pending navigations...
+[1602334296.656][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.672][INFO]: Waiting for pending navigations...
+[1602334296.673][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.673][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+8°…+10°"
+[1602334296.678][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "a7b08420-98f9-490f-b82e-eb01caede367",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334296.679][INFO]: Waiting for pending navigations...
+[1602334296.679][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.687][INFO]: Waiting for pending navigations...
+[1602334296.688][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.688][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "29edbada-86b7-4e60-ae84-a12de538ff91"
+}
+[1602334296.690][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "29edbada-86b7-4e60-ae84-a12de538ff91"
+}
+[1602334296.690][INFO]: Waiting for pending navigations...
+[1602334296.691][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.693][INFO]: Waiting for pending navigations...
+[1602334296.694][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.694][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.696][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "29edbada-86b7-4e60-ae84-a12de538ff91"
+}
+[1602334296.696][INFO]: Waiting for pending navigations...
+[1602334296.696][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.707][INFO]: Waiting for pending navigations...
+[1602334296.707][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.707][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Днём"
+[1602334296.711][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "a7b08420-98f9-490f-b82e-eb01caede367",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334296.711][INFO]: Waiting for pending navigations...
+[1602334296.711][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.720][INFO]: Waiting for pending navigations...
+[1602334296.720][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.720][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "c7d6a0b0-a0c3-49b7-b6d5-f1e3881ff300"
+}
+[1602334296.722][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "c7d6a0b0-a0c3-49b7-b6d5-f1e3881ff300"
+}
+[1602334296.722][INFO]: Waiting for pending navigations...
+[1602334296.722][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.724][INFO]: Waiting for pending navigations...
+[1602334296.725][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.725][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.727][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "c7d6a0b0-a0c3-49b7-b6d5-f1e3881ff300"
+}
+[1602334296.727][INFO]: Waiting for pending navigations...
+[1602334296.728][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.741][INFO]: Waiting for pending navigations...
+[1602334296.742][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.742][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+11°…+14°"
+[1602334296.751][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "3d255819-ff80-4aed-b2d5-2a1fa3ddb4a0",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334296.751][INFO]: Waiting for pending navigations...
+[1602334296.751][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.759][INFO]: Waiting for pending navigations...
+[1602334296.759][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.760][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "2ec71893-c5ae-4c55-8c1f-dbabd1e4c168"
+}
+[1602334296.761][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "2ec71893-c5ae-4c55-8c1f-dbabd1e4c168"
+}
+[1602334296.761][INFO]: Waiting for pending navigations...
+[1602334296.762][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.764][INFO]: Waiting for pending navigations...
+[1602334296.764][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.764][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.767][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "2ec71893-c5ae-4c55-8c1f-dbabd1e4c168"
+}
+[1602334296.767][INFO]: Waiting for pending navigations...
+[1602334296.768][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.778][INFO]: Waiting for pending navigations...
+[1602334296.779][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.779][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Вечером"
+[1602334296.783][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "3d255819-ff80-4aed-b2d5-2a1fa3ddb4a0",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334296.783][INFO]: Waiting for pending navigations...
+[1602334296.784][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.794][INFO]: Waiting for pending navigations...
+[1602334296.795][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.795][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b9a4f9e4-15f9-4532-b183-a2b5e751ad8e"
+}
+[1602334296.796][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "b9a4f9e4-15f9-4532-b183-a2b5e751ad8e"
+}
+[1602334296.796][INFO]: Waiting for pending navigations...
+[1602334296.797][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.800][INFO]: Waiting for pending navigations...
+[1602334296.800][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.800][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.802][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "b9a4f9e4-15f9-4532-b183-a2b5e751ad8e"
+}
+[1602334296.802][INFO]: Waiting for pending navigations...
+[1602334296.802][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.819][INFO]: Waiting for pending navigations...
+[1602334296.819][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.819][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+9°…+11°"
+[1602334296.823][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "8d25a7eb-b54a-4cde-a871-603831bedbe4",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334296.823][INFO]: Waiting for pending navigations...
+[1602334296.824][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.832][INFO]: Waiting for pending navigations...
+[1602334296.833][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.833][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1b844b6e-3eae-498b-85f8-56d34fa5584f"
+}
+[1602334296.834][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "1b844b6e-3eae-498b-85f8-56d34fa5584f"
+}
+[1602334296.834][INFO]: Waiting for pending navigations...
+[1602334296.835][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.838][INFO]: Waiting for pending navigations...
+[1602334296.839][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.839][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.840][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "1b844b6e-3eae-498b-85f8-56d34fa5584f"
+}
+[1602334296.840][INFO]: Waiting for pending navigations...
+[1602334296.855][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.867][INFO]: Waiting for pending navigations...
+[1602334296.868][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.868][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Ночью"
+[1602334296.901][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "8d25a7eb-b54a-4cde-a871-603831bedbe4",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334296.902][INFO]: Waiting for pending navigations...
+[1602334296.929][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.941][INFO]: Waiting for pending navigations...
+[1602334296.942][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.942][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "643cdbcb-5dce-454f-bbd1-1d9297e41fad"
+}
+[1602334296.944][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "643cdbcb-5dce-454f-bbd1-1d9297e41fad"
+}
+[1602334296.944][INFO]: Waiting for pending navigations...
+[1602334296.945][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.951][INFO]: Waiting for pending navigations...
+[1602334296.952][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.952][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334296.955][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "643cdbcb-5dce-454f-bbd1-1d9297e41fad"
+}
+[1602334296.955][INFO]: Waiting for pending navigations...
+[1602334296.955][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.979][INFO]: Waiting for pending navigations...
+[1602334296.979][INFO]: Done waiting for pending navigations. Status: ok
+[1602334296.979][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+8°"
+[1602334296.991][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "dc8a06c7-5ef9-4412-bd2e-43599f57e3da",
+   "using": "css selector",
+   "value": "strong"
+}
+[1602334296.991][INFO]: Waiting for pending navigations...
+[1602334296.992][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.003][INFO]: Waiting for pending navigations...
+[1602334297.004][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.004][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "793e5e33-5296-43b3-b14f-a4530ab118a9"
+}
+[1602334297.007][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "793e5e33-5296-43b3-b14f-a4530ab118a9"
+}
+[1602334297.007][INFO]: Waiting for pending navigations...
+[1602334297.010][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.013][INFO]: Waiting for pending navigations...
+[1602334297.018][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.018][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "strong"
+[1602334297.022][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "793e5e33-5296-43b3-b14f-a4530ab118a9"
+}
+[1602334297.022][INFO]: Waiting for pending navigations...
+[1602334297.023][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.044][INFO]: Waiting for pending navigations...
+[1602334297.051][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.051][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "14"
+[1602334297.063][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "dc8a06c7-5ef9-4412-bd2e-43599f57e3da",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334297.063][INFO]: Waiting for pending navigations...
+[1602334297.064][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.076][INFO]: Waiting for pending navigations...
+[1602334297.077][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.077][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "47f3f4e8-9a09-443e-bdbc-ab583d96b323"
+}
+[1602334297.087][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "47f3f4e8-9a09-443e-bdbc-ab583d96b323",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334297.087][INFO]: Waiting for pending navigations...
+[1602334297.088][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.102][INFO]: Waiting for pending navigations...
+[1602334297.103][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.103][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "83f798fe-1074-40ab-be4f-e8bb9757fc13"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d5da2927-30e9-445c-b07f-811cb3f807fc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7d3a0fe5-715f-491d-aa3d-b917aaec6c94"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f21adc68-7416-4159-89eb-2c40f337bd04"
+} ]
+[1602334297.111][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "dc8a06c7-5ef9-4412-bd2e-43599f57e3da",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334297.111][INFO]: Waiting for pending navigations...
+[1602334297.114][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.124][INFO]: Waiting for pending navigations...
+[1602334297.124][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.124][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "47f3f4e8-9a09-443e-bdbc-ab583d96b323"
+}
+[1602334297.126][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "47f3f4e8-9a09-443e-bdbc-ab583d96b323",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334297.126][INFO]: Waiting for pending navigations...
+[1602334297.127][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.136][INFO]: Waiting for pending navigations...
+[1602334297.137][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.137][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "83f798fe-1074-40ab-be4f-e8bb9757fc13"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d5da2927-30e9-445c-b07f-811cb3f807fc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7d3a0fe5-715f-491d-aa3d-b917aaec6c94"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f21adc68-7416-4159-89eb-2c40f337bd04"
+} ]
+[1602334297.143][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "83f798fe-1074-40ab-be4f-e8bb9757fc13",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334297.143][INFO]: Waiting for pending navigations...
+[1602334297.144][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.157][INFO]: Waiting for pending navigations...
+[1602334297.158][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.158][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a8a710bb-9c77-47d0-b552-5e5a7ca0a118"
+}
+[1602334297.159][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "a8a710bb-9c77-47d0-b552-5e5a7ca0a118"
+}
+[1602334297.159][INFO]: Waiting for pending navigations...
+[1602334297.160][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.164][INFO]: Waiting for pending navigations...
+[1602334297.166][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.166][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.168][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "a8a710bb-9c77-47d0-b552-5e5a7ca0a118"
+}
+[1602334297.168][INFO]: Waiting for pending navigations...
+[1602334297.169][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.179][INFO]: Waiting for pending navigations...
+[1602334297.179][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.179][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Утром"
+[1602334297.183][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "83f798fe-1074-40ab-be4f-e8bb9757fc13",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334297.183][INFO]: Waiting for pending navigations...
+[1602334297.184][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.193][INFO]: Waiting for pending navigations...
+[1602334297.194][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.194][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "578664a3-0c49-4ba4-a32a-243478a7c0a8"
+}
+[1602334297.196][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "578664a3-0c49-4ba4-a32a-243478a7c0a8"
+}
+[1602334297.196][INFO]: Waiting for pending navigations...
+[1602334297.196][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.200][INFO]: Waiting for pending navigations...
+[1602334297.201][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.201][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.202][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "578664a3-0c49-4ba4-a32a-243478a7c0a8"
+}
+[1602334297.202][INFO]: Waiting for pending navigations...
+[1602334297.203][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.220][INFO]: Waiting for pending navigations...
+[1602334297.220][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.221][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+8°…+12°"
+[1602334297.230][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "d5da2927-30e9-445c-b07f-811cb3f807fc",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334297.230][INFO]: Waiting for pending navigations...
+[1602334297.231][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.240][INFO]: Waiting for pending navigations...
+[1602334297.240][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.240][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "42ff64d7-e3bb-4482-b376-1a896c9dab97"
+}
+[1602334297.242][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "42ff64d7-e3bb-4482-b376-1a896c9dab97"
+}
+[1602334297.242][INFO]: Waiting for pending navigations...
+[1602334297.242][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.244][INFO]: Waiting for pending navigations...
+[1602334297.245][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.245][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.246][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "42ff64d7-e3bb-4482-b376-1a896c9dab97"
+}
+[1602334297.246][INFO]: Waiting for pending navigations...
+[1602334297.247][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.256][INFO]: Waiting for pending navigations...
+[1602334297.257][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.257][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Днём"
+[1602334297.262][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "d5da2927-30e9-445c-b07f-811cb3f807fc",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334297.262][INFO]: Waiting for pending navigations...
+[1602334297.263][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.271][INFO]: Waiting for pending navigations...
+[1602334297.271][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.271][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5496a5c0-193f-4793-b3fd-5f8a1a470506"
+}
+[1602334297.272][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "5496a5c0-193f-4793-b3fd-5f8a1a470506"
+}
+[1602334297.273][INFO]: Waiting for pending navigations...
+[1602334297.273][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.275][INFO]: Waiting for pending navigations...
+[1602334297.275][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.276][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.277][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "5496a5c0-193f-4793-b3fd-5f8a1a470506"
+}
+[1602334297.277][INFO]: Waiting for pending navigations...
+[1602334297.277][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.289][INFO]: Waiting for pending navigations...
+[1602334297.289][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.289][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+16°"
+[1602334297.294][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "7d3a0fe5-715f-491d-aa3d-b917aaec6c94",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334297.294][INFO]: Waiting for pending navigations...
+[1602334297.295][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.303][INFO]: Waiting for pending navigations...
+[1602334297.304][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.304][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "236c05b7-ff7f-4663-84a9-f92b7064d77a"
+}
+[1602334297.305][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "236c05b7-ff7f-4663-84a9-f92b7064d77a"
+}
+[1602334297.305][INFO]: Waiting for pending navigations...
+[1602334297.306][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.307][INFO]: Waiting for pending navigations...
+[1602334297.308][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.308][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.309][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "236c05b7-ff7f-4663-84a9-f92b7064d77a"
+}
+[1602334297.309][INFO]: Waiting for pending navigations...
+[1602334297.310][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.322][INFO]: Waiting for pending navigations...
+[1602334297.323][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.323][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Вечером"
+[1602334297.326][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "7d3a0fe5-715f-491d-aa3d-b917aaec6c94",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334297.327][INFO]: Waiting for pending navigations...
+[1602334297.327][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.336][INFO]: Waiting for pending navigations...
+[1602334297.336][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.336][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5ed2bf04-e107-48ac-8b44-9b2c3603e126"
+}
+[1602334297.337][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "5ed2bf04-e107-48ac-8b44-9b2c3603e126"
+}
+[1602334297.338][INFO]: Waiting for pending navigations...
+[1602334297.338][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.340][INFO]: Waiting for pending navigations...
+[1602334297.341][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.341][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.342][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "5ed2bf04-e107-48ac-8b44-9b2c3603e126"
+}
+[1602334297.342][INFO]: Waiting for pending navigations...
+[1602334297.343][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.356][INFO]: Waiting for pending navigations...
+[1602334297.356][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.356][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+11°…+12°"
+[1602334297.367][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "f21adc68-7416-4159-89eb-2c40f337bd04",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334297.367][INFO]: Waiting for pending navigations...
+[1602334297.369][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.377][INFO]: Waiting for pending navigations...
+[1602334297.378][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.378][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "8bfa686e-a403-4b97-9741-8ada91981fce"
+}
+[1602334297.379][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "8bfa686e-a403-4b97-9741-8ada91981fce"
+}
+[1602334297.380][INFO]: Waiting for pending navigations...
+[1602334297.380][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.383][INFO]: Waiting for pending navigations...
+[1602334297.384][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.384][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.385][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "8bfa686e-a403-4b97-9741-8ada91981fce"
+}
+[1602334297.385][INFO]: Waiting for pending navigations...
+[1602334297.386][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.400][INFO]: Waiting for pending navigations...
+[1602334297.406][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.406][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Ночью"
+[1602334297.415][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "f21adc68-7416-4159-89eb-2c40f337bd04",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334297.415][INFO]: Waiting for pending navigations...
+[1602334297.416][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.426][INFO]: Waiting for pending navigations...
+[1602334297.427][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.427][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f34083c2-3e48-47f2-9bc6-0353129a969a"
+}
+[1602334297.428][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "f34083c2-3e48-47f2-9bc6-0353129a969a"
+}
+[1602334297.428][INFO]: Waiting for pending navigations...
+[1602334297.429][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.432][INFO]: Waiting for pending navigations...
+[1602334297.433][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.433][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.434][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "f34083c2-3e48-47f2-9bc6-0353129a969a"
+}
+[1602334297.434][INFO]: Waiting for pending navigations...
+[1602334297.435][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.452][INFO]: Waiting for pending navigations...
+[1602334297.452][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.452][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+7°…+9°"
+[1602334297.462][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "b58f6160-fc98-4b80-b958-8a7b511a915d",
+   "using": "css selector",
+   "value": "strong"
+}
+[1602334297.462][INFO]: Waiting for pending navigations...
+[1602334297.463][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.472][INFO]: Waiting for pending navigations...
+[1602334297.472][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.472][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4c77ca0f-3991-4a5d-b6b9-af47ef7dbb39"
+}
+[1602334297.474][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "4c77ca0f-3991-4a5d-b6b9-af47ef7dbb39"
+}
+[1602334297.474][INFO]: Waiting for pending navigations...
+[1602334297.474][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.476][INFO]: Waiting for pending navigations...
+[1602334297.477][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.477][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "strong"
+[1602334297.479][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "4c77ca0f-3991-4a5d-b6b9-af47ef7dbb39"
+}
+[1602334297.479][INFO]: Waiting for pending navigations...
+[1602334297.480][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.490][INFO]: Waiting for pending navigations...
+[1602334297.491][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.491][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "15"
+[1602334297.494][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "b58f6160-fc98-4b80-b958-8a7b511a915d",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334297.495][INFO]: Waiting for pending navigations...
+[1602334297.495][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.503][INFO]: Waiting for pending navigations...
+[1602334297.504][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.504][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "fac9e49a-bf19-4a76-bd5d-33e54db8f8cf"
+}
+[1602334297.511][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "fac9e49a-bf19-4a76-bd5d-33e54db8f8cf",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334297.511][INFO]: Waiting for pending navigations...
+[1602334297.512][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.521][INFO]: Waiting for pending navigations...
+[1602334297.522][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.522][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "59c25b84-9a70-4f75-a33c-fb9eb3a37be9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7375753b-9290-4ee5-b650-b8adefb9d9e5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "651359a0-41d8-45b7-9a12-f1d1d3021cdb"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c47c54eb-84de-43dc-93c0-83f0b4d778ad"
+} ]
+[1602334297.527][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "b58f6160-fc98-4b80-b958-8a7b511a915d",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334297.527][INFO]: Waiting for pending navigations...
+[1602334297.528][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.536][INFO]: Waiting for pending navigations...
+[1602334297.537][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.537][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "fac9e49a-bf19-4a76-bd5d-33e54db8f8cf"
+}
+[1602334297.543][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "fac9e49a-bf19-4a76-bd5d-33e54db8f8cf",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334297.543][INFO]: Waiting for pending navigations...
+[1602334297.544][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.550][INFO]: Waiting for pending navigations...
+[1602334297.551][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.551][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "59c25b84-9a70-4f75-a33c-fb9eb3a37be9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7375753b-9290-4ee5-b650-b8adefb9d9e5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "651359a0-41d8-45b7-9a12-f1d1d3021cdb"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c47c54eb-84de-43dc-93c0-83f0b4d778ad"
+} ]
+[1602334297.559][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "59c25b84-9a70-4f75-a33c-fb9eb3a37be9",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334297.559][INFO]: Waiting for pending navigations...
+[1602334297.559][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.571][INFO]: Waiting for pending navigations...
+[1602334297.571][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.571][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "76c41b2f-ebc0-4f81-bd5b-992bde06c0b4"
+}
+[1602334297.573][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "76c41b2f-ebc0-4f81-bd5b-992bde06c0b4"
+}
+[1602334297.573][INFO]: Waiting for pending navigations...
+[1602334297.574][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.577][INFO]: Waiting for pending navigations...
+[1602334297.577][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.577][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.579][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "76c41b2f-ebc0-4f81-bd5b-992bde06c0b4"
+}
+[1602334297.579][INFO]: Waiting for pending navigations...
+[1602334297.580][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.594][INFO]: Waiting for pending navigations...
+[1602334297.595][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.595][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Утром"
+[1602334297.599][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "59c25b84-9a70-4f75-a33c-fb9eb3a37be9",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334297.599][INFO]: Waiting for pending navigations...
+[1602334297.599][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.607][INFO]: Waiting for pending navigations...
+[1602334297.607][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.607][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b3a0323f-fa55-479b-b158-414d264755e2"
+}
+[1602334297.609][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "b3a0323f-fa55-479b-b158-414d264755e2"
+}
+[1602334297.609][INFO]: Waiting for pending navigations...
+[1602334297.610][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.612][INFO]: Waiting for pending navigations...
+[1602334297.613][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.613][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.615][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "b3a0323f-fa55-479b-b158-414d264755e2"
+}
+[1602334297.615][INFO]: Waiting for pending navigations...
+[1602334297.616][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.633][INFO]: Waiting for pending navigations...
+[1602334297.634][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.634][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+6°…+10°"
+[1602334297.639][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "7375753b-9290-4ee5-b650-b8adefb9d9e5",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334297.639][INFO]: Waiting for pending navigations...
+[1602334297.640][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.648][INFO]: Waiting for pending navigations...
+[1602334297.649][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.649][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "62344481-ed57-4260-aac0-e281076f5451"
+}
+[1602334297.650][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "62344481-ed57-4260-aac0-e281076f5451"
+}
+[1602334297.650][INFO]: Waiting for pending navigations...
+[1602334297.651][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.654][INFO]: Waiting for pending navigations...
+[1602334297.654][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.654][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.656][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "62344481-ed57-4260-aac0-e281076f5451"
+}
+[1602334297.656][INFO]: Waiting for pending navigations...
+[1602334297.657][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.669][INFO]: Waiting for pending navigations...
+[1602334297.670][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.670][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Днём"
+[1602334297.679][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "7375753b-9290-4ee5-b650-b8adefb9d9e5",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334297.679][INFO]: Waiting for pending navigations...
+[1602334297.679][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.689][INFO]: Waiting for pending navigations...
+[1602334297.690][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.690][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "962d2795-d1f9-4ee5-a8f2-1e6cefd1e959"
+}
+[1602334297.691][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "962d2795-d1f9-4ee5-a8f2-1e6cefd1e959"
+}
+[1602334297.691][INFO]: Waiting for pending navigations...
+[1602334297.692][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.695][INFO]: Waiting for pending navigations...
+[1602334297.696][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.696][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.697][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "962d2795-d1f9-4ee5-a8f2-1e6cefd1e959"
+}
+[1602334297.697][INFO]: Waiting for pending navigations...
+[1602334297.698][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.712][INFO]: Waiting for pending navigations...
+[1602334297.713][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.713][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+15°…+16°"
+[1602334297.719][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "651359a0-41d8-45b7-9a12-f1d1d3021cdb",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334297.719][INFO]: Waiting for pending navigations...
+[1602334297.719][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.727][INFO]: Waiting for pending navigations...
+[1602334297.727][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.727][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e8929100-f219-4c1b-97d1-38d7863ae6b9"
+}
+[1602334297.728][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "e8929100-f219-4c1b-97d1-38d7863ae6b9"
+}
+[1602334297.728][INFO]: Waiting for pending navigations...
+[1602334297.729][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.731][INFO]: Waiting for pending navigations...
+[1602334297.732][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.732][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.734][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "e8929100-f219-4c1b-97d1-38d7863ae6b9"
+}
+[1602334297.734][INFO]: Waiting for pending navigations...
+[1602334297.735][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.748][INFO]: Waiting for pending navigations...
+[1602334297.749][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.749][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Вечером"
+[1602334297.759][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "651359a0-41d8-45b7-9a12-f1d1d3021cdb",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334297.759][INFO]: Waiting for pending navigations...
+[1602334297.759][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.767][INFO]: Waiting for pending navigations...
+[1602334297.768][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.768][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9fad7248-6d87-4845-b979-48d36aa6c477"
+}
+[1602334297.769][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "9fad7248-6d87-4845-b979-48d36aa6c477"
+}
+[1602334297.769][INFO]: Waiting for pending navigations...
+[1602334297.770][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.772][INFO]: Waiting for pending navigations...
+[1602334297.773][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.773][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.774][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "9fad7248-6d87-4845-b979-48d36aa6c477"
+}
+[1602334297.774][INFO]: Waiting for pending navigations...
+[1602334297.775][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.787][INFO]: Waiting for pending navigations...
+[1602334297.788][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.788][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+11°…+12°"
+[1602334297.790][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "c47c54eb-84de-43dc-93c0-83f0b4d778ad",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334297.790][INFO]: Waiting for pending navigations...
+[1602334297.791][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.798][INFO]: Waiting for pending navigations...
+[1602334297.799][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.799][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d36c925f-f909-47a9-8013-5b58909df658"
+}
+[1602334297.801][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "d36c925f-f909-47a9-8013-5b58909df658"
+}
+[1602334297.801][INFO]: Waiting for pending navigations...
+[1602334297.802][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.804][INFO]: Waiting for pending navigations...
+[1602334297.805][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.805][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.806][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "d36c925f-f909-47a9-8013-5b58909df658"
+}
+[1602334297.806][INFO]: Waiting for pending navigations...
+[1602334297.807][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.817][INFO]: Waiting for pending navigations...
+[1602334297.818][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.818][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Ночью"
+[1602334297.823][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "c47c54eb-84de-43dc-93c0-83f0b4d778ad",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334297.823][INFO]: Waiting for pending navigations...
+[1602334297.823][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.831][INFO]: Waiting for pending navigations...
+[1602334297.832][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.832][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "c33fa40a-34eb-4b03-a57a-da0ad0a88c29"
+}
+[1602334297.833][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "c33fa40a-34eb-4b03-a57a-da0ad0a88c29"
+}
+[1602334297.833][INFO]: Waiting for pending navigations...
+[1602334297.833][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.835][INFO]: Waiting for pending navigations...
+[1602334297.836][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.836][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.837][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "c33fa40a-34eb-4b03-a57a-da0ad0a88c29"
+}
+[1602334297.838][INFO]: Waiting for pending navigations...
+[1602334297.838][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.851][INFO]: Waiting for pending navigations...
+[1602334297.851][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.851][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+10°…+11°"
+[1602334297.855][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "611df2ca-d3cf-4f53-b933-409ef1476312",
+   "using": "css selector",
+   "value": "strong"
+}
+[1602334297.855][INFO]: Waiting for pending navigations...
+[1602334297.856][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.863][INFO]: Waiting for pending navigations...
+[1602334297.864][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.864][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6cb442d9-e382-4a3a-adaa-6ef199788e0b"
+}
+[1602334297.865][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "6cb442d9-e382-4a3a-adaa-6ef199788e0b"
+}
+[1602334297.865][INFO]: Waiting for pending navigations...
+[1602334297.866][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.868][INFO]: Waiting for pending navigations...
+[1602334297.869][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.869][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "strong"
+[1602334297.870][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "6cb442d9-e382-4a3a-adaa-6ef199788e0b"
+}
+[1602334297.870][INFO]: Waiting for pending navigations...
+[1602334297.871][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.880][INFO]: Waiting for pending navigations...
+[1602334297.880][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.880][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "16"
+[1602334297.886][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "611df2ca-d3cf-4f53-b933-409ef1476312",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334297.886][INFO]: Waiting for pending navigations...
+[1602334297.888][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.895][INFO]: Waiting for pending navigations...
+[1602334297.896][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.896][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ad297bbf-e3ba-487a-bcc8-8cf1ed91c8ea"
+}
+[1602334297.902][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "ad297bbf-e3ba-487a-bcc8-8cf1ed91c8ea",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334297.902][INFO]: Waiting for pending navigations...
+[1602334297.903][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.911][INFO]: Waiting for pending navigations...
+[1602334297.911][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.911][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "027f07ba-1b75-4851-af3c-d57d53050c45"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3715144b-d80f-4eb5-981f-5abc7dd7f48b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e93d3a02-a108-42db-9ae2-a287bbe11289"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "75861265-11a4-4683-ac74-3d1043e95350"
+} ]
+[1602334297.919][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "611df2ca-d3cf-4f53-b933-409ef1476312",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334297.919][INFO]: Waiting for pending navigations...
+[1602334297.919][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.923][INFO]: Waiting for pending navigations...
+[1602334297.924][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.924][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ad297bbf-e3ba-487a-bcc8-8cf1ed91c8ea"
+}
+[1602334297.926][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "ad297bbf-e3ba-487a-bcc8-8cf1ed91c8ea",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334297.926][INFO]: Waiting for pending navigations...
+[1602334297.927][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.931][INFO]: Waiting for pending navigations...
+[1602334297.932][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.932][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "027f07ba-1b75-4851-af3c-d57d53050c45"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3715144b-d80f-4eb5-981f-5abc7dd7f48b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e93d3a02-a108-42db-9ae2-a287bbe11289"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "75861265-11a4-4683-ac74-3d1043e95350"
+} ]
+[1602334297.935][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "027f07ba-1b75-4851-af3c-d57d53050c45",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334297.935][INFO]: Waiting for pending navigations...
+[1602334297.935][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.942][INFO]: Waiting for pending navigations...
+[1602334297.943][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.943][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "15df32f4-20d1-41c3-838d-2d6020e9730b"
+}
+[1602334297.945][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "15df32f4-20d1-41c3-838d-2d6020e9730b"
+}
+[1602334297.945][INFO]: Waiting for pending navigations...
+[1602334297.946][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.949][INFO]: Waiting for pending navigations...
+[1602334297.950][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.950][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.951][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "15df32f4-20d1-41c3-838d-2d6020e9730b"
+}
+[1602334297.951][INFO]: Waiting for pending navigations...
+[1602334297.952][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.963][INFO]: Waiting for pending navigations...
+[1602334297.964][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.964][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Утром"
+[1602334297.966][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "027f07ba-1b75-4851-af3c-d57d53050c45",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334297.967][INFO]: Waiting for pending navigations...
+[1602334297.967][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.976][INFO]: Waiting for pending navigations...
+[1602334297.976][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.976][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "7cf49753-fe37-4450-908f-02d1c1261697"
+}
+[1602334297.978][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "7cf49753-fe37-4450-908f-02d1c1261697"
+}
+[1602334297.978][INFO]: Waiting for pending navigations...
+[1602334297.979][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.981][INFO]: Waiting for pending navigations...
+[1602334297.982][INFO]: Done waiting for pending navigations. Status: ok
+[1602334297.982][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334297.984][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "7cf49753-fe37-4450-908f-02d1c1261697"
+}
+[1602334297.984][INFO]: Waiting for pending navigations...
+[1602334297.985][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.002][INFO]: Waiting for pending navigations...
+[1602334298.006][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.006][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+10°…+12°"
+[1602334298.015][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "3715144b-d80f-4eb5-981f-5abc7dd7f48b",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334298.015][INFO]: Waiting for pending navigations...
+[1602334298.016][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.027][INFO]: Waiting for pending navigations...
+[1602334298.028][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.028][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19d4beb3-000c-4f37-97cf-3583c5da9980"
+}
+[1602334298.030][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "19d4beb3-000c-4f37-97cf-3583c5da9980"
+}
+[1602334298.030][INFO]: Waiting for pending navigations...
+[1602334298.031][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.034][INFO]: Waiting for pending navigations...
+[1602334298.035][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.035][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.036][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "19d4beb3-000c-4f37-97cf-3583c5da9980"
+}
+[1602334298.036][INFO]: Waiting for pending navigations...
+[1602334298.037][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.046][INFO]: Waiting for pending navigations...
+[1602334298.047][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.047][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Днём"
+[1602334298.054][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "3715144b-d80f-4eb5-981f-5abc7dd7f48b",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334298.055][INFO]: Waiting for pending navigations...
+[1602334298.055][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.064][INFO]: Waiting for pending navigations...
+[1602334298.065][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.065][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9a01282a-9073-4bc0-b619-ab92623ef2f6"
+}
+[1602334298.066][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "9a01282a-9073-4bc0-b619-ab92623ef2f6"
+}
+[1602334298.066][INFO]: Waiting for pending navigations...
+[1602334298.067][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.069][INFO]: Waiting for pending navigations...
+[1602334298.070][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.070][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.071][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "9a01282a-9073-4bc0-b619-ab92623ef2f6"
+}
+[1602334298.071][INFO]: Waiting for pending navigations...
+[1602334298.072][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.086][INFO]: Waiting for pending navigations...
+[1602334298.087][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.087][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+13°…+15°"
+[1602334298.095][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "e93d3a02-a108-42db-9ae2-a287bbe11289",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334298.095][INFO]: Waiting for pending navigations...
+[1602334298.095][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.102][INFO]: Waiting for pending navigations...
+[1602334298.103][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.103][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "967f0a6c-9ed4-42dd-880d-8482e7675b7f"
+}
+[1602334298.104][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "967f0a6c-9ed4-42dd-880d-8482e7675b7f"
+}
+[1602334298.104][INFO]: Waiting for pending navigations...
+[1602334298.105][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.107][INFO]: Waiting for pending navigations...
+[1602334298.108][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.108][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.109][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "967f0a6c-9ed4-42dd-880d-8482e7675b7f"
+}
+[1602334298.109][INFO]: Waiting for pending navigations...
+[1602334298.109][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.118][INFO]: Waiting for pending navigations...
+[1602334298.119][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.119][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Вечером"
+[1602334298.127][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "e93d3a02-a108-42db-9ae2-a287bbe11289",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334298.127][INFO]: Waiting for pending navigations...
+[1602334298.128][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.139][INFO]: Waiting for pending navigations...
+[1602334298.140][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.140][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a41b7c8e-a555-4e76-b0be-2b13bb2fc2b8"
+}
+[1602334298.142][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "a41b7c8e-a555-4e76-b0be-2b13bb2fc2b8"
+}
+[1602334298.142][INFO]: Waiting for pending navigations...
+[1602334298.143][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.145][INFO]: Waiting for pending navigations...
+[1602334298.145][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.145][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.147][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "a41b7c8e-a555-4e76-b0be-2b13bb2fc2b8"
+}
+[1602334298.147][INFO]: Waiting for pending navigations...
+[1602334298.148][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.163][INFO]: Waiting for pending navigations...
+[1602334298.163][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.163][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+9°…+10°"
+[1602334298.166][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "75861265-11a4-4683-ac74-3d1043e95350",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334298.167][INFO]: Waiting for pending navigations...
+[1602334298.167][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.174][INFO]: Waiting for pending navigations...
+[1602334298.176][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.176][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e908413d-bd82-450a-99c6-9f254de9d9d7"
+}
+[1602334298.178][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "e908413d-bd82-450a-99c6-9f254de9d9d7"
+}
+[1602334298.178][INFO]: Waiting for pending navigations...
+[1602334298.178][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.181][INFO]: Waiting for pending navigations...
+[1602334298.182][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.182][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.183][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "e908413d-bd82-450a-99c6-9f254de9d9d7"
+}
+[1602334298.183][INFO]: Waiting for pending navigations...
+[1602334298.184][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.193][INFO]: Waiting for pending navigations...
+[1602334298.194][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.194][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Ночью"
+[1602334298.199][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "75861265-11a4-4683-ac74-3d1043e95350",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334298.199][INFO]: Waiting for pending navigations...
+[1602334298.200][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.207][INFO]: Waiting for pending navigations...
+[1602334298.208][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.208][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "be848729-c3cf-44e9-a1d2-335efa4ab880"
+}
+[1602334298.209][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "be848729-c3cf-44e9-a1d2-335efa4ab880"
+}
+[1602334298.209][INFO]: Waiting for pending navigations...
+[1602334298.210][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.213][INFO]: Waiting for pending navigations...
+[1602334298.214][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.214][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.215][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "be848729-c3cf-44e9-a1d2-335efa4ab880"
+}
+[1602334298.215][INFO]: Waiting for pending navigations...
+[1602334298.215][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.227][INFO]: Waiting for pending navigations...
+[1602334298.228][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.228][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+6°…+7°"
+[1602334298.239][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "3140bca7-4cba-4449-9cf5-2513e25b4260",
+   "using": "css selector",
+   "value": "strong"
+}
+[1602334298.239][INFO]: Waiting for pending navigations...
+[1602334298.239][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.246][INFO]: Waiting for pending navigations...
+[1602334298.247][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.247][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "71dd1738-9936-45aa-967e-e7591ecd1b7c"
+}
+[1602334298.248][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "71dd1738-9936-45aa-967e-e7591ecd1b7c"
+}
+[1602334298.249][INFO]: Waiting for pending navigations...
+[1602334298.250][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.252][INFO]: Waiting for pending navigations...
+[1602334298.253][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.253][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "strong"
+[1602334298.254][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "71dd1738-9936-45aa-967e-e7591ecd1b7c"
+}
+[1602334298.254][INFO]: Waiting for pending navigations...
+[1602334298.255][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.264][INFO]: Waiting for pending navigations...
+[1602334298.266][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.266][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "17"
+[1602334298.271][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "3140bca7-4cba-4449-9cf5-2513e25b4260",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334298.271][INFO]: Waiting for pending navigations...
+[1602334298.272][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.279][INFO]: Waiting for pending navigations...
+[1602334298.280][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.280][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b4a61adc-540a-403c-9d37-c7a275c96fb7"
+}
+[1602334298.287][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "b4a61adc-540a-403c-9d37-c7a275c96fb7",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334298.287][INFO]: Waiting for pending navigations...
+[1602334298.288][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.295][INFO]: Waiting for pending navigations...
+[1602334298.296][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.296][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "64cd64cf-a873-4973-a4a3-ea5685a0e77d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c79db71-19a7-454d-8c7c-463c6801aa62"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b9811d88-9482-4ed5-80db-c099465eaba1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "953a7f8c-34d3-4a38-a16b-a982ac0f8631"
+} ]
+[1602334298.303][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "3140bca7-4cba-4449-9cf5-2513e25b4260",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334298.303][INFO]: Waiting for pending navigations...
+[1602334298.304][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.308][INFO]: Waiting for pending navigations...
+[1602334298.309][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.309][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b4a61adc-540a-403c-9d37-c7a275c96fb7"
+}
+[1602334298.319][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "b4a61adc-540a-403c-9d37-c7a275c96fb7",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334298.319][INFO]: Waiting for pending navigations...
+[1602334298.320][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.324][INFO]: Waiting for pending navigations...
+[1602334298.325][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.325][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "64cd64cf-a873-4973-a4a3-ea5685a0e77d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c79db71-19a7-454d-8c7c-463c6801aa62"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b9811d88-9482-4ed5-80db-c099465eaba1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "953a7f8c-34d3-4a38-a16b-a982ac0f8631"
+} ]
+[1602334298.335][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "64cd64cf-a873-4973-a4a3-ea5685a0e77d",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334298.335][INFO]: Waiting for pending navigations...
+[1602334298.336][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.344][INFO]: Waiting for pending navigations...
+[1602334298.345][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.346][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "7ab09598-62c0-424e-9a1f-bcf366973f53"
+}
+[1602334298.347][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "7ab09598-62c0-424e-9a1f-bcf366973f53"
+}
+[1602334298.347][INFO]: Waiting for pending navigations...
+[1602334298.348][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.350][INFO]: Waiting for pending navigations...
+[1602334298.351][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.351][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.352][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "7ab09598-62c0-424e-9a1f-bcf366973f53"
+}
+[1602334298.352][INFO]: Waiting for pending navigations...
+[1602334298.353][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.363][INFO]: Waiting for pending navigations...
+[1602334298.365][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.365][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Утром"
+[1602334298.375][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "64cd64cf-a873-4973-a4a3-ea5685a0e77d",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334298.375][INFO]: Waiting for pending navigations...
+[1602334298.376][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.385][INFO]: Waiting for pending navigations...
+[1602334298.386][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.386][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "93b774ca-dc1c-446d-b7fa-e01b4f84099e"
+}
+[1602334298.387][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "93b774ca-dc1c-446d-b7fa-e01b4f84099e"
+}
+[1602334298.387][INFO]: Waiting for pending navigations...
+[1602334298.388][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.392][INFO]: Waiting for pending navigations...
+[1602334298.394][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.394][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.396][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "93b774ca-dc1c-446d-b7fa-e01b4f84099e"
+}
+[1602334298.396][INFO]: Waiting for pending navigations...
+[1602334298.397][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.411][INFO]: Waiting for pending navigations...
+[1602334298.416][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.416][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+6°…+8°"
+[1602334298.423][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "0c79db71-19a7-454d-8c7c-463c6801aa62",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334298.423][INFO]: Waiting for pending navigations...
+[1602334298.424][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.433][INFO]: Waiting for pending navigations...
+[1602334298.435][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.435][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d7a64f13-16b3-4ca3-b474-b9e139b4554a"
+}
+[1602334298.439][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "d7a64f13-16b3-4ca3-b474-b9e139b4554a"
+}
+[1602334298.439][INFO]: Waiting for pending navigations...
+[1602334298.440][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.443][INFO]: Waiting for pending navigations...
+[1602334298.443][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.443][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.445][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "d7a64f13-16b3-4ca3-b474-b9e139b4554a"
+}
+[1602334298.445][INFO]: Waiting for pending navigations...
+[1602334298.446][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.458][INFO]: Waiting for pending navigations...
+[1602334298.459][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.459][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Днём"
+[1602334298.462][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "0c79db71-19a7-454d-8c7c-463c6801aa62",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334298.463][INFO]: Waiting for pending navigations...
+[1602334298.463][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.472][INFO]: Waiting for pending navigations...
+[1602334298.473][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.473][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "200a7492-d935-4f81-9781-cfccb5905e62"
+}
+[1602334298.475][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "200a7492-d935-4f81-9781-cfccb5905e62"
+}
+[1602334298.475][INFO]: Waiting for pending navigations...
+[1602334298.475][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.478][INFO]: Waiting for pending navigations...
+[1602334298.479][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.479][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.480][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "200a7492-d935-4f81-9781-cfccb5905e62"
+}
+[1602334298.480][INFO]: Waiting for pending navigations...
+[1602334298.482][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.493][INFO]: Waiting for pending navigations...
+[1602334298.494][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.494][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+10°"
+[1602334298.503][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "b9811d88-9482-4ed5-80db-c099465eaba1",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334298.503][INFO]: Waiting for pending navigations...
+[1602334298.503][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.513][INFO]: Waiting for pending navigations...
+[1602334298.514][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.514][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "19d96c9e-1e6c-4f03-ab6c-c6505a8c943b"
+}
+[1602334298.516][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "19d96c9e-1e6c-4f03-ab6c-c6505a8c943b"
+}
+[1602334298.516][INFO]: Waiting for pending navigations...
+[1602334298.517][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.519][INFO]: Waiting for pending navigations...
+[1602334298.520][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.520][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.521][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "19d96c9e-1e6c-4f03-ab6c-c6505a8c943b"
+}
+[1602334298.522][INFO]: Waiting for pending navigations...
+[1602334298.522][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.533][INFO]: Waiting for pending navigations...
+[1602334298.534][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.534][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Вечером"
+[1602334298.543][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "b9811d88-9482-4ed5-80db-c099465eaba1",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334298.543][INFO]: Waiting for pending navigations...
+[1602334298.544][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.553][INFO]: Waiting for pending navigations...
+[1602334298.554][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.554][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9edac9cb-0987-435f-9e04-874419966140"
+}
+[1602334298.555][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "9edac9cb-0987-435f-9e04-874419966140"
+}
+[1602334298.555][INFO]: Waiting for pending navigations...
+[1602334298.556][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.558][INFO]: Waiting for pending navigations...
+[1602334298.559][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.559][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.560][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "9edac9cb-0987-435f-9e04-874419966140"
+}
+[1602334298.561][INFO]: Waiting for pending navigations...
+[1602334298.562][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.575][INFO]: Waiting for pending navigations...
+[1602334298.576][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.576][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+7°…+8°"
+[1602334298.583][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "953a7f8c-34d3-4a38-a16b-a982ac0f8631",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334298.583][INFO]: Waiting for pending navigations...
+[1602334298.584][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.592][INFO]: Waiting for pending navigations...
+[1602334298.593][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.593][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "601e6838-8609-48c5-81ed-e9cedea41bc3"
+}
+[1602334298.594][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "601e6838-8609-48c5-81ed-e9cedea41bc3"
+}
+[1602334298.594][INFO]: Waiting for pending navigations...
+[1602334298.595][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.598][INFO]: Waiting for pending navigations...
+[1602334298.599][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.599][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.600][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "601e6838-8609-48c5-81ed-e9cedea41bc3"
+}
+[1602334298.600][INFO]: Waiting for pending navigations...
+[1602334298.601][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.611][INFO]: Waiting for pending navigations...
+[1602334298.612][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.612][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Ночью"
+[1602334298.614][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "953a7f8c-34d3-4a38-a16b-a982ac0f8631",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334298.614][INFO]: Waiting for pending navigations...
+[1602334298.615][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.623][INFO]: Waiting for pending navigations...
+[1602334298.624][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.624][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3bff3b08-e626-4d35-994f-f8dcc0130be7"
+}
+[1602334298.625][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "3bff3b08-e626-4d35-994f-f8dcc0130be7"
+}
+[1602334298.625][INFO]: Waiting for pending navigations...
+[1602334298.626][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.628][INFO]: Waiting for pending navigations...
+[1602334298.629][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.629][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.631][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "3bff3b08-e626-4d35-994f-f8dcc0130be7"
+}
+[1602334298.631][INFO]: Waiting for pending navigations...
+[1602334298.631][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.645][INFO]: Waiting for pending navigations...
+[1602334298.646][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.646][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+5°…+6°"
+[1602334298.655][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "e7262387-bd34-4252-a1ba-37316a05dc05",
+   "using": "css selector",
+   "value": "strong"
+}
+[1602334298.655][INFO]: Waiting for pending navigations...
+[1602334298.656][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.665][INFO]: Waiting for pending navigations...
+[1602334298.666][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.666][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "74cbfd31-406e-4be2-a9ab-b153740efcc7"
+}
+[1602334298.667][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "74cbfd31-406e-4be2-a9ab-b153740efcc7"
+}
+[1602334298.667][INFO]: Waiting for pending navigations...
+[1602334298.668][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.672][INFO]: Waiting for pending navigations...
+[1602334298.673][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.673][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "strong"
+[1602334298.674][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "74cbfd31-406e-4be2-a9ab-b153740efcc7"
+}
+[1602334298.674][INFO]: Waiting for pending navigations...
+[1602334298.675][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.686][INFO]: Waiting for pending navigations...
+[1602334298.687][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.687][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "18"
+[1602334298.695][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "e7262387-bd34-4252-a1ba-37316a05dc05",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334298.695][INFO]: Waiting for pending navigations...
+[1602334298.696][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.704][INFO]: Waiting for pending navigations...
+[1602334298.705][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.705][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d1e2dd83-d6c7-4f5b-99f4-79af62991f89"
+}
+[1602334298.711][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "d1e2dd83-d6c7-4f5b-99f4-79af62991f89",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334298.711][INFO]: Waiting for pending navigations...
+[1602334298.712][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.720][INFO]: Waiting for pending navigations...
+[1602334298.721][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.721][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "9d56fd69-991b-417c-b6cd-3c2982362842"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7aeec972-809d-4524-9edd-5a4c5462d018"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cb4ccaf4-8554-41f9-8f8a-5c04d23080f4"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ef239874-3d79-48b3-b7af-6c991bd52995"
+} ]
+[1602334298.727][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "e7262387-bd34-4252-a1ba-37316a05dc05",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334298.727][INFO]: Waiting for pending navigations...
+[1602334298.728][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.732][INFO]: Waiting for pending navigations...
+[1602334298.733][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.733][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d1e2dd83-d6c7-4f5b-99f4-79af62991f89"
+}
+[1602334298.743][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "d1e2dd83-d6c7-4f5b-99f4-79af62991f89",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334298.743][INFO]: Waiting for pending navigations...
+[1602334298.744][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.749][INFO]: Waiting for pending navigations...
+[1602334298.750][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.750][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "9d56fd69-991b-417c-b6cd-3c2982362842"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7aeec972-809d-4524-9edd-5a4c5462d018"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cb4ccaf4-8554-41f9-8f8a-5c04d23080f4"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ef239874-3d79-48b3-b7af-6c991bd52995"
+} ]
+[1602334298.759][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "9d56fd69-991b-417c-b6cd-3c2982362842",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334298.759][INFO]: Waiting for pending navigations...
+[1602334298.760][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.769][INFO]: Waiting for pending navigations...
+[1602334298.770][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.770][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a4ef2b49-a0c6-4f9e-8e4d-c68d012b870d"
+}
+[1602334298.771][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "a4ef2b49-a0c6-4f9e-8e4d-c68d012b870d"
+}
+[1602334298.771][INFO]: Waiting for pending navigations...
+[1602334298.772][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.775][INFO]: Waiting for pending navigations...
+[1602334298.776][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.776][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.777][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "a4ef2b49-a0c6-4f9e-8e4d-c68d012b870d"
+}
+[1602334298.777][INFO]: Waiting for pending navigations...
+[1602334298.778][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.790][INFO]: Waiting for pending navigations...
+[1602334298.791][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.791][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Утром"
+[1602334298.799][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "9d56fd69-991b-417c-b6cd-3c2982362842",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334298.799][INFO]: Waiting for pending navigations...
+[1602334298.800][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.809][INFO]: Waiting for pending navigations...
+[1602334298.810][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.810][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1c19e830-1798-49c2-a9fd-5c2b3dc7a1a1"
+}
+[1602334298.811][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "1c19e830-1798-49c2-a9fd-5c2b3dc7a1a1"
+}
+[1602334298.811][INFO]: Waiting for pending navigations...
+[1602334298.813][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.815][INFO]: Waiting for pending navigations...
+[1602334298.816][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.816][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.818][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "1c19e830-1798-49c2-a9fd-5c2b3dc7a1a1"
+}
+[1602334298.818][INFO]: Waiting for pending navigations...
+[1602334298.819][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.834][INFO]: Waiting for pending navigations...
+[1602334298.835][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.835][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+5°…+6°"
+[1602334298.839][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "7aeec972-809d-4524-9edd-5a4c5462d018",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334298.839][INFO]: Waiting for pending navigations...
+[1602334298.840][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.849][INFO]: Waiting for pending navigations...
+[1602334298.850][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.850][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ad7b202f-9a76-47db-9b00-292f72d9b057"
+}
+[1602334298.851][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "ad7b202f-9a76-47db-9b00-292f72d9b057"
+}
+[1602334298.851][INFO]: Waiting for pending navigations...
+[1602334298.852][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.860][INFO]: Waiting for pending navigations...
+[1602334298.861][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.861][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.862][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "ad7b202f-9a76-47db-9b00-292f72d9b057"
+}
+[1602334298.862][INFO]: Waiting for pending navigations...
+[1602334298.863][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.881][INFO]: Waiting for pending navigations...
+[1602334298.882][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.882][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Днём"
+[1602334298.886][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "7aeec972-809d-4524-9edd-5a4c5462d018",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334298.886][INFO]: Waiting for pending navigations...
+[1602334298.887][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.895][INFO]: Waiting for pending navigations...
+[1602334298.896][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.896][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "49ff7ad8-7940-4daf-8191-ca43fe54883b"
+}
+[1602334298.898][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "49ff7ad8-7940-4daf-8191-ca43fe54883b"
+}
+[1602334298.898][INFO]: Waiting for pending navigations...
+[1602334298.899][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.901][INFO]: Waiting for pending navigations...
+[1602334298.901][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.901][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.902][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "49ff7ad8-7940-4daf-8191-ca43fe54883b"
+}
+[1602334298.902][INFO]: Waiting for pending navigations...
+[1602334298.903][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.914][INFO]: Waiting for pending navigations...
+[1602334298.915][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.915][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+7°"
+[1602334298.919][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "cb4ccaf4-8554-41f9-8f8a-5c04d23080f4",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334298.919][INFO]: Waiting for pending navigations...
+[1602334298.920][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.928][INFO]: Waiting for pending navigations...
+[1602334298.929][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.929][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3fc974fc-baea-4a15-b622-386d5ba1ad47"
+}
+[1602334298.930][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "3fc974fc-baea-4a15-b622-386d5ba1ad47"
+}
+[1602334298.930][INFO]: Waiting for pending navigations...
+[1602334298.931][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.934][INFO]: Waiting for pending navigations...
+[1602334298.935][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.935][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.936][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "3fc974fc-baea-4a15-b622-386d5ba1ad47"
+}
+[1602334298.936][INFO]: Waiting for pending navigations...
+[1602334298.937][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.947][INFO]: Waiting for pending navigations...
+[1602334298.947][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.948][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Вечером"
+[1602334298.951][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "cb4ccaf4-8554-41f9-8f8a-5c04d23080f4",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334298.951][INFO]: Waiting for pending navigations...
+[1602334298.951][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.963][INFO]: Waiting for pending navigations...
+[1602334298.963][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.963][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b0c2e137-2368-4d4c-bc87-93735d8251dc"
+}
+[1602334298.966][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "b0c2e137-2368-4d4c-bc87-93735d8251dc"
+}
+[1602334298.966][INFO]: Waiting for pending navigations...
+[1602334298.967][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.969][INFO]: Waiting for pending navigations...
+[1602334298.970][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.970][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334298.971][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "b0c2e137-2368-4d4c-bc87-93735d8251dc"
+}
+[1602334298.971][INFO]: Waiting for pending navigations...
+[1602334298.972][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.986][INFO]: Waiting for pending navigations...
+[1602334298.990][INFO]: Done waiting for pending navigations. Status: ok
+[1602334298.990][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+2°…+4°"
+[1602334298.998][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "ef239874-3d79-48b3-b7af-6c991bd52995",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334298.999][INFO]: Waiting for pending navigations...
+[1602334298.999][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.007][INFO]: Waiting for pending navigations...
+[1602334299.008][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.008][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ea7e83bc-a2e3-4e5b-b714-6a461e4f068f"
+}
+[1602334299.009][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "ea7e83bc-a2e3-4e5b-b714-6a461e4f068f"
+}
+[1602334299.009][INFO]: Waiting for pending navigations...
+[1602334299.010][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.019][INFO]: Waiting for pending navigations...
+[1602334299.020][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.020][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334299.022][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "ea7e83bc-a2e3-4e5b-b714-6a461e4f068f"
+}
+[1602334299.022][INFO]: Waiting for pending navigations...
+[1602334299.023][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.032][INFO]: Waiting for pending navigations...
+[1602334299.033][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.033][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Ночью"
+[1602334299.039][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "ef239874-3d79-48b3-b7af-6c991bd52995",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334299.039][INFO]: Waiting for pending navigations...
+[1602334299.040][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.047][INFO]: Waiting for pending navigations...
+[1602334299.048][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.048][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3c36ae3f-c79d-4881-97bb-b8a00085faa8"
+}
+[1602334299.050][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "3c36ae3f-c79d-4881-97bb-b8a00085faa8"
+}
+[1602334299.050][INFO]: Waiting for pending navigations...
+[1602334299.051][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.053][INFO]: Waiting for pending navigations...
+[1602334299.054][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.054][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334299.055][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "3c36ae3f-c79d-4881-97bb-b8a00085faa8"
+}
+[1602334299.055][INFO]: Waiting for pending navigations...
+[1602334299.056][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.068][INFO]: Waiting for pending navigations...
+[1602334299.069][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.069][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "0°…+1°"
+[1602334299.079][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "49b77a4c-8891-41f0-b7ec-36c8ae07392f",
+   "using": "css selector",
+   "value": "strong"
+}
+[1602334299.079][INFO]: Waiting for pending navigations...
+[1602334299.080][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.088][INFO]: Waiting for pending navigations...
+[1602334299.088][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.089][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5e528ec3-e0ef-4332-b63f-685e03f105d2"
+}
+[1602334299.090][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "5e528ec3-e0ef-4332-b63f-685e03f105d2"
+}
+[1602334299.090][INFO]: Waiting for pending navigations...
+[1602334299.091][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.093][INFO]: Waiting for pending navigations...
+[1602334299.094][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.094][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "strong"
+[1602334299.095][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "5e528ec3-e0ef-4332-b63f-685e03f105d2"
+}
+[1602334299.095][INFO]: Waiting for pending navigations...
+[1602334299.096][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.105][INFO]: Waiting for pending navigations...
+[1602334299.106][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.106][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "19"
+[1602334299.111][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "49b77a4c-8891-41f0-b7ec-36c8ae07392f",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334299.111][INFO]: Waiting for pending navigations...
+[1602334299.112][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.119][INFO]: Waiting for pending navigations...
+[1602334299.120][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.120][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1339aa15-abf9-43f7-a422-66083703a331"
+}
+[1602334299.127][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "1339aa15-abf9-43f7-a422-66083703a331",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334299.127][INFO]: Waiting for pending navigations...
+[1602334299.128][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.135][INFO]: Waiting for pending navigations...
+[1602334299.136][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.136][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "26e598ae-58e2-4b2c-93d9-eb65d6cd7590"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e6224349-0034-40ee-822c-53421d0beaef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8f2f40f8-b970-4909-8714-6cfe232e3bb4"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5a4e50b8-c708-4a8d-b7d3-ec12d379561e"
+} ]
+[1602334299.143][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "49b77a4c-8891-41f0-b7ec-36c8ae07392f",
+   "using": "css selector",
+   "value": "tbody"
+}
+[1602334299.143][INFO]: Waiting for pending navigations...
+[1602334299.144][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.148][INFO]: Waiting for pending navigations...
+[1602334299.149][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.149][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1339aa15-abf9-43f7-a422-66083703a331"
+}
+[1602334299.159][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElements {
+   "id": "1339aa15-abf9-43f7-a422-66083703a331",
+   "using": "css selector",
+   "value": "tr"
+}
+[1602334299.159][INFO]: Waiting for pending navigations...
+[1602334299.160][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.164][INFO]: Waiting for pending navigations...
+[1602334299.165][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.165][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "26e598ae-58e2-4b2c-93d9-eb65d6cd7590"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e6224349-0034-40ee-822c-53421d0beaef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8f2f40f8-b970-4909-8714-6cfe232e3bb4"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5a4e50b8-c708-4a8d-b7d3-ec12d379561e"
+} ]
+[1602334299.175][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "26e598ae-58e2-4b2c-93d9-eb65d6cd7590",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334299.175][INFO]: Waiting for pending navigations...
+[1602334299.176][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.183][INFO]: Waiting for pending navigations...
+[1602334299.184][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.184][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "935dc08d-8b48-444e-9ac5-2170c3d3229f"
+}
+[1602334299.185][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "935dc08d-8b48-444e-9ac5-2170c3d3229f"
+}
+[1602334299.185][INFO]: Waiting for pending navigations...
+[1602334299.186][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.189][INFO]: Waiting for pending navigations...
+[1602334299.190][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.190][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334299.191][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "935dc08d-8b48-444e-9ac5-2170c3d3229f"
+}
+[1602334299.191][INFO]: Waiting for pending navigations...
+[1602334299.192][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.202][INFO]: Waiting for pending navigations...
+[1602334299.203][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.203][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Утром"
+[1602334299.207][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "26e598ae-58e2-4b2c-93d9-eb65d6cd7590",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334299.207][INFO]: Waiting for pending navigations...
+[1602334299.208][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.215][INFO]: Waiting for pending navigations...
+[1602334299.216][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.216][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "058abc83-20c8-4ceb-bed7-b4bf33894aea"
+}
+[1602334299.217][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "058abc83-20c8-4ceb-bed7-b4bf33894aea"
+}
+[1602334299.217][INFO]: Waiting for pending navigations...
+[1602334299.219][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.221][INFO]: Waiting for pending navigations...
+[1602334299.222][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.222][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334299.223][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "058abc83-20c8-4ceb-bed7-b4bf33894aea"
+}
+[1602334299.223][INFO]: Waiting for pending navigations...
+[1602334299.224][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.237][INFO]: Waiting for pending navigations...
+[1602334299.238][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.238][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "0°…+1°"
+[1602334299.246][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "e6224349-0034-40ee-822c-53421d0beaef",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334299.247][INFO]: Waiting for pending navigations...
+[1602334299.247][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.255][INFO]: Waiting for pending navigations...
+[1602334299.256][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.256][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b60bae1c-c3b0-43e5-be46-2e5a397b69c8"
+}
+[1602334299.257][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "b60bae1c-c3b0-43e5-be46-2e5a397b69c8"
+}
+[1602334299.257][INFO]: Waiting for pending navigations...
+[1602334299.258][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.261][INFO]: Waiting for pending navigations...
+[1602334299.262][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.262][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334299.263][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "b60bae1c-c3b0-43e5-be46-2e5a397b69c8"
+}
+[1602334299.263][INFO]: Waiting for pending navigations...
+[1602334299.264][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.274][INFO]: Waiting for pending navigations...
+[1602334299.275][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.275][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Днём"
+[1602334299.279][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "e6224349-0034-40ee-822c-53421d0beaef",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334299.279][INFO]: Waiting for pending navigations...
+[1602334299.280][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.288][INFO]: Waiting for pending navigations...
+[1602334299.289][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.289][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6410d0a6-2347-4e60-8283-4c0683a161d4"
+}
+[1602334299.291][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "6410d0a6-2347-4e60-8283-4c0683a161d4"
+}
+[1602334299.291][INFO]: Waiting for pending navigations...
+[1602334299.292][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.294][INFO]: Waiting for pending navigations...
+[1602334299.295][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.295][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334299.296][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "6410d0a6-2347-4e60-8283-4c0683a161d4"
+}
+[1602334299.296][INFO]: Waiting for pending navigations...
+[1602334299.297][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.308][INFO]: Waiting for pending navigations...
+[1602334299.309][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.309][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "+3°"
+[1602334299.319][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "8f2f40f8-b970-4909-8714-6cfe232e3bb4",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334299.319][INFO]: Waiting for pending navigations...
+[1602334299.320][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.327][INFO]: Waiting for pending navigations...
+[1602334299.328][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.328][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "7e43035f-d8e3-4735-bc64-a2b7cbe45d48"
+}
+[1602334299.330][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "7e43035f-d8e3-4735-bc64-a2b7cbe45d48"
+}
+[1602334299.330][INFO]: Waiting for pending navigations...
+[1602334299.331][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.333][INFO]: Waiting for pending navigations...
+[1602334299.334][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.334][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334299.335][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "7e43035f-d8e3-4735-bc64-a2b7cbe45d48"
+}
+[1602334299.335][INFO]: Waiting for pending navigations...
+[1602334299.336][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.345][INFO]: Waiting for pending navigations...
+[1602334299.346][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.346][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Вечером"
+[1602334299.351][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "8f2f40f8-b970-4909-8714-6cfe232e3bb4",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334299.351][INFO]: Waiting for pending navigations...
+[1602334299.352][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.360][INFO]: Waiting for pending navigations...
+[1602334299.361][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.361][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9e0a947e-cbbf-4d43-87fd-8efbf5991d1c"
+}
+[1602334299.362][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "9e0a947e-cbbf-4d43-87fd-8efbf5991d1c"
+}
+[1602334299.362][INFO]: Waiting for pending navigations...
+[1602334299.363][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.365][INFO]: Waiting for pending navigations...
+[1602334299.366][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.366][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334299.367][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "9e0a947e-cbbf-4d43-87fd-8efbf5991d1c"
+}
+[1602334299.367][INFO]: Waiting for pending navigations...
+[1602334299.368][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.379][INFO]: Waiting for pending navigations...
+[1602334299.380][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.380][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "0°"
+[1602334299.382][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "5a4e50b8-c708-4a8d-b7d3-ec12d379561e",
+   "using": "css selector",
+   "value": "div.weather-table__daypart"
+}
+[1602334299.382][INFO]: Waiting for pending navigations...
+[1602334299.383][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.391][INFO]: Waiting for pending navigations...
+[1602334299.392][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.392][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "501038ae-5268-4738-bb45-41b3559f4a1e"
+}
+[1602334299.394][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "501038ae-5268-4738-bb45-41b3559f4a1e"
+}
+[1602334299.394][INFO]: Waiting for pending navigations...
+[1602334299.394][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.397][INFO]: Waiting for pending navigations...
+[1602334299.397][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.397][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334299.399][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "501038ae-5268-4738-bb45-41b3559f4a1e"
+}
+[1602334299.399][INFO]: Waiting for pending navigations...
+[1602334299.401][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.413][INFO]: Waiting for pending navigations...
+[1602334299.414][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.414][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "Ночью"
+[1602334299.423][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND FindChildElement {
+   "id": "5a4e50b8-c708-4a8d-b7d3-ec12d379561e",
+   "using": "css selector",
+   "value": "div.weather-table__temp"
+}
+[1602334299.423][INFO]: Waiting for pending navigations...
+[1602334299.424][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.432][INFO]: Waiting for pending navigations...
+[1602334299.433][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.433][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "63718f4a-6b3b-440a-91a6-2bebda0708b7"
+}
+[1602334299.434][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementTagName {
+   "id": "63718f4a-6b3b-440a-91a6-2bebda0708b7"
+}
+[1602334299.434][INFO]: Waiting for pending navigations...
+[1602334299.435][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.437][INFO]: Waiting for pending navigations...
+[1602334299.438][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.438][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementTagName "div"
+[1602334299.439][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND GetElementText {
+   "id": "63718f4a-6b3b-440a-91a6-2bebda0708b7"
+}
+[1602334299.439][INFO]: Waiting for pending navigations...
+[1602334299.440][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.452][INFO]: Waiting for pending navigations...
+[1602334299.453][INFO]: Done waiting for pending navigations. Status: ok
+[1602334299.453][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE GetElementText "0°…+1°"
+[1602334299.463][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] COMMAND Quit {
+
+}
+[1602334299.574][INFO]: [73285c5817f8b1e54d5d29698e9b15ed] RESPONSE Quit

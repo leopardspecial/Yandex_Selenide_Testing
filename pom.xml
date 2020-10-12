@@ -7,7 +7,7 @@
     <properties>
         <maven.compiler.release>11</maven.compiler.release>
         <junit.version>4.13</junit.version>
-        <selenium-java.version>3.14.0</selenium-java.version>
+        <selenide.version>5.15.0</selenide.version>
     </properties>
 
     <groupId>org.example</groupId>
@@ -18,19 +18,25 @@
         <dependency>
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
-            <version>5.15.0</version>
+            <version>${selenide.version}</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-jcl</artifactId>
-            <version>1.7.30</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+        </dependency>
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>5.15.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
