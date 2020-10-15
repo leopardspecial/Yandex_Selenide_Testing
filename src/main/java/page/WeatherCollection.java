@@ -10,12 +10,12 @@ import static com.codeborne.selenide.Selenide.$$;
 @Data
 public class WeatherCollection {
     private final String weatherTablePath = "//div[@class='card']";
-    private final String dayNumberCssSelector = "div[class=card] strong";
-    private final String dayOfMonthCssSelector = "small span:nth-of-type(1)";
-    private final String dayOfWeekCssSelector = "small span:nth-of-type(2)";
-    private final String dayPartAndTempCssSelector = "td:nth-of-type(1)";
-    private final String dayPartCssSelector = "div[class=weather-table__wrapper] div:nth-of-type(1)";
-    private final String dayTempCssSelector = "div[class=weather-table__wrapper] div:nth-of-type(2)";
+    private final String dayNumber = "div[class=card] strong";
+    private final String dayOfMonth = "small span:nth-of-type(1)";
+    private final String dayOfWeek = "small span:nth-of-type(2)";
+    private final String dayPartAndTemp = "td:nth-of-type(1)";
+    private final String dayPart = "div[class=weather-table__wrapper] div:nth-of-type(1)";
+    private final String dayTemp = "div[class=weather-table__wrapper] div:nth-of-type(2)";
 
     public ElementsCollection getCollection() {
         return $$(By.xpath(weatherTablePath)).first(7);

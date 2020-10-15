@@ -20,18 +20,18 @@ public class YandexWeatherPage {
 
         for (SelenideElement titleElementOfTable : weatherCollection.getCollection()) {
             System.out.println(titleElementOfTable
-                    .$(weatherCollection.getDayNumberCssSelector()).getText() + " " +
-                    titleElementOfTable.$(weatherCollection.getDayOfMonthCssSelector()).getText() + " " +
-                    titleElementOfTable.$(weatherCollection.getDayOfWeekCssSelector()).getText());
+                    .$(weatherCollection.getDayNumber()).getText() + " " +
+                    titleElementOfTable.$(weatherCollection.getDayOfMonth()).getText() + " " +
+                    titleElementOfTable.$(weatherCollection.getDayOfWeek()).getText());
 
             System.out.println("{");
 
             for (SelenideElement firsColumnElement : titleElementOfTable
-                    .$$(weatherCollection.getDayPartAndTempCssSelector())) {
+                    .$$(weatherCollection.getDayPartAndTemp())) {
                 System.out.println(" " + firsColumnElement
-                        .$(weatherCollection.getDayPartCssSelector()).getText() +
+                        .$(weatherCollection.getDayPart()).getText() +
                         " " + firsColumnElement
-                        .$(weatherCollection.getDayTempCssSelector()).getText());
+                        .$(weatherCollection.getDayTemp()).getText());
             }
 
             System.out.println("}");
