@@ -3,7 +3,7 @@ package yandexTest;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import page.WeatherCollection;
+import page.Weather;
 import page.YandexWeatherPage;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
@@ -11,27 +11,17 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class AlphaYandexTest {
     private final String url = "https://yandex.ru/pogoda/izhevsk";
-    private YandexWeatherPage yandexPage;
-    private WeatherCollection weatherCollection;
+    private YandexWeatherPage yandexWeatherPage;
 
     @Before
-    public void createYandexPage() {
-        yandexPage = new YandexWeatherPage(url);
-    }
-
-    @Before
-    public void createWeatherCollection() {
-        weatherCollection = new WeatherCollection();
-    }
-
-    @Before
-    public void openPage() {
-        yandexPage.openPage();
+    public void initStatements() {
+        yandexWeatherPage = new YandexWeatherPage(url);
+        yandexWeatherPage.openPage();
     }
 
     @Test
     public void printElementCollection() {
-        yandexPage.printElementCollection(weatherCollection);
+        yandexWeatherPage.printWeather(7);
     }
 
     @After

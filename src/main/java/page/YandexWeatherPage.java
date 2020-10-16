@@ -3,40 +3,27 @@ package page;
 
 import com.codeborne.selenide.SelenideElement;
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 import static com.codeborne.selenide.Selenide.open;
 
-@Data
+@RequiredArgsConstructor
 public class YandexWeatherPage {
     private final String url;
-
+    private Weather weather;
 
     public void openPage() {
-        open(this.getUrl());
+        open(url);
+        weather = new Weather();
     }
 
-
-    public void printElementCollection(WeatherCollection weatherCollection) {
-
-        for (SelenideElement titleElementOfTable : weatherCollection.getCollection()) {
-            System.out.println(titleElementOfTable
-                    .$(weatherCollection.getDayNumber()).getText() + " " +
-                    titleElementOfTable.$(weatherCollection.getDayOfMonth()).getText() + " " +
-                    titleElementOfTable.$(weatherCollection.getDayOfWeek()).getText());
-
-            System.out.println("{");
-
-            for (SelenideElement firsColumnElement : titleElementOfTable
-                    .$$(weatherCollection.getDayPartAndTemp())) {
-                System.out.println(" " + firsColumnElement
-                        .$(weatherCollection.getDayPart()).getText() +
-                        " " + firsColumnElement
-                        .$(weatherCollection.getDayTemp()).getText());
-            }
-
-            System.out.println("}");
-
+    public void printWeather(int dayCount) {
+        List<Day> dayList = weather.getDayList();
+        for (int i = 0; i < dayCount; i++) {
+            System.out.println(dayList.get(i));
         }
-
     }
 }
